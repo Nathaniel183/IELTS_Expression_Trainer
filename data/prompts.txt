@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "prompts": [
+    {
+      "id": "generate-theme",
+      "title": "让 AI 生成新主题数据",
+      "description": "填写想新增的主题，让 AI 输出可合并到 data/themes.txt 的 theme 对象。",
+      "buttonText": "复制：生成新主题数据提示词",
+      "text": "我正在维护一个本地静态网页项目 IELTS Expression Trainer，用于通过刻意练习掌握雅思写作与口语表达。data/themes.txt 是 JSON 格式，theme 对象需要包含 id、name、icon、description、coreVocab、commonClaims、practiceSemantics。practiceSemantics 至少包含 field、topic、statement、viewA、viewB、opinion、position、reason、factor、benefit、effect、opposing、counter、explanation、factorA、factorB、example、result、negative、positive、A、B、verb、alternative、solution、goal、area、group、action、summary。现在请为主题【填写主题】生成一个完整 theme 对象。要求：词汇适合雅思 6.0-7.0；避免与已有主题冗余；输出合法 JSON，不要 Markdown。"
+    },
+    {
+      "id": "generate-questions",
+      "title": "让 AI 生成新题目数据",
+      "description": "根据现有 theme 和 templates 扩充题库。",
+      "buttonText": "复制：生成新题目提示词",
+      "text": "我正在维护 IELTS Expression Trainer。请根据我提供的 theme.practiceSemantics 和 data/templates.txt，为主题【填写主题 id】生成可追加到 data/questions.txt 的题目 JSON 数组。要求：至少 20 道 build 拼句题和 20 道 free 自由表达题；build 题覆盖引入背景、改写题目、表明立场、第一原因、第二原因、反方观点、反驳、解释原因、举例、结果影响、比较对比、解决方案、结论等功能；free 题覆盖句子、主体段、问题解决段、双边讨论段、口语回答和微型作文。输出合法 JSON，不要 Markdown。"
+    },
+    {
+      "id": "modify-project",
+      "title": "让 AI 修改整个项目",
+      "description": "上传项目 zip 后，用这个提示词追加新需求。",
+      "buttonText": "复制：项目修改提示词",
+      "text": "我上传的是本地静态网页项目 IELTS Expression Trainer。请保持项目名称不变。项目结构包括 index.html、practice.html、knowledge.html、assets/css/style.css、assets/js/*.js、data/*.txt、docs/*.md。请根据我的需求修改并返回完整可运行 zip。要求保持纯前端、响应式、页面提示使用组件而非弹窗、不破坏 data/*.txt 的 JSON 数据结构。我的具体需求是：【填写需求】。"
+    },
+    {
+      "id": "css-theme",
+      "title": "让 AI 生成新视觉主题 CSS",
+      "description": "替换 style.css 中的 :root 变量实现换肤。",
+      "buttonText": "复制：CSS 换肤提示词",
+      "text": "我的 IELTS Expression Trainer 使用 CSS 变量控制主题，包括 --bg、--surface、--text、--muted、--primary、--primary2、--accent、--danger、--success、--warning、--border、--shadow、--radius。请生成一套【填写风格】的现代简约主题。只输出 :root 和必要 body 背景 CSS，不要使用外部字体、图片或 JS。"
+    },
+    {
+      "id": "ai-review",
+      "title": "自由表达题 AI 评判提示词模板",
+      "description": "练习页自动填入题目和回答。",
+      "buttonText": "复制：AI 评判模板",
+      "text": "你是一名雅思写作与口语表达教练。请根据下面的信息评价我的英文表达。\n\n题目：\n{{question}}\n\n我的回答：\n{{answer}}\n\n请按以下维度评价：\n1. 是否准确回应题目。\n2. 表达是否自然，是否适合雅思写作/口语。\n3. 语法错误和更自然的修改方式。\n4. 是否有效使用了通用句型模板和主题词汇。\n5. 给出一个更好的示范答案。\n6. 给出 3 条我下次练习时最应该注意的点。\n\n请用中文讲解，英文句子要直接给出可替换版本。"
+    }
+  ]
+}

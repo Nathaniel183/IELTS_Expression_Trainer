@@ -1,0 +1,2 @@
+let full="";
+document.addEventListener("DOMContentLoaded",async()=>{full=await loadText("knowledge");$("#knowledgeText").textContent=full||"未能加载知识库。";$("#searchInput").oninput=e=>{const q=norm(e.target.value).toLowerCase();if(!q){$("#knowledgeText").textContent=full;return}const lines=full.split(/\r?\n/).filter(l=>l.toLowerCase().includes(q));$("#knowledgeText").textContent=lines.length?lines.join("\n"):"没有找到匹配内容。"};$("#copyVisible").onclick=()=>copyText($("#knowledgeText").textContent,"当前文本已复制")});

@@ -1,0 +1,859 @@
+{
+  "version": "2.0",
+  "description": "与 IELTS Expression Trainer 练习项目匹配的功能型句型库。每个模板都有 id，可被题目引用。",
+  "templateGroups": [
+    {
+      "id": "intro-background",
+      "functionName": "引入背景",
+      "purpose": "用于作文开头或口语回答开场，说明某个话题受到关注。",
+      "templates": [
+        {
+          "id": "tpl-intro-001",
+          "text": "In recent years, [topic] has become a widely discussed issue.",
+          "zh": "近年来，[话题]已经成为广泛讨论的问题。",
+          "slots": [
+            "topic"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-intro-002",
+          "text": "Many people today are concerned about the issue of [topic].",
+          "zh": "如今许多人关注[话题]这一问题。",
+          "slots": [
+            "topic"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-intro-003",
+          "text": "There has been growing debate over whether [statement].",
+          "zh": "关于是否[陈述]，争论越来越多。",
+          "slots": [
+            "statement"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-intro-004",
+          "text": "With the development of [field], [topic] has attracted increasing public attention.",
+          "zh": "随着[领域]的发展，[话题]引起了越来越多的公众关注。",
+          "slots": [
+            "field",
+            "topic"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-intro-005",
+          "text": "As modern society continues to change, the question of [topic] has become increasingly important.",
+          "zh": "随着现代社会持续变化，[话题]问题变得越来越重要。",
+          "slots": [
+            "topic"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-intro-006",
+          "text": "In many countries, [topic] has become a major concern for both individuals and governments.",
+          "zh": "在许多国家，[话题]已经成为个人和政府共同关注的重要问题。",
+          "slots": [
+            "topic"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "paraphrase-topic",
+      "functionName": "改写题目",
+      "purpose": "用于改写题干、引出双方观点。",
+      "templates": [
+        {
+          "id": "tpl-para-001",
+          "text": "Some people argue that [view A], while others believe that [view B].",
+          "zh": "一些人认为[观点A]，而另一些人认为[观点B]。",
+          "slots": [
+            "view A",
+            "view B"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-para-002",
+          "text": "It is often claimed that [view A]. However, others maintain that [view B].",
+          "zh": "人们常说[观点A]。然而，另一些人坚持认为[观点B]。",
+          "slots": [
+            "view A",
+            "view B"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-para-003",
+          "text": "People have different views about whether [statement].",
+          "zh": "关于是否[陈述]，人们有不同看法。",
+          "slots": [
+            "statement"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-para-004",
+          "text": "There is no agreement on whether [statement].",
+          "zh": "关于是否[陈述]，目前没有一致意见。",
+          "slots": [
+            "statement"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-para-005",
+          "text": "The debate over [topic] usually centres on whether [view A] or [view B] is more reasonable.",
+          "zh": "关于[话题]的争论通常集中在[观点A]还是[观点B]更合理。",
+          "slots": [
+            "topic",
+            "view A",
+            "view B"
+          ],
+          "level": "hard"
+        },
+        {
+          "id": "tpl-para-006",
+          "text": "This essay will discuss both perspectives before presenting my own view.",
+          "zh": "本文将讨论双方观点，然后提出我的看法。",
+          "slots": [],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "position",
+      "functionName": "表明立场",
+      "purpose": "用于表达个人观点或总体立场。",
+      "templates": [
+        {
+          "id": "tpl-pos-001",
+          "text": "In my view, [opinion].",
+          "zh": "在我看来，[观点]。",
+          "slots": [
+            "opinion"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-pos-002",
+          "text": "I tend to agree with the view that [opinion].",
+          "zh": "我倾向于同意[观点]。",
+          "slots": [
+            "opinion"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-pos-003",
+          "text": "Although both views have some merit, I would argue that [position].",
+          "zh": "尽管两种观点都有一定道理，但我认为[立场]。",
+          "slots": [
+            "position"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-pos-004",
+          "text": "From my perspective, [opinion].",
+          "zh": "从我的角度看，[观点]。",
+          "slots": [
+            "opinion"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-pos-005",
+          "text": "Overall, I am more inclined to support the idea that [opinion].",
+          "zh": "总体而言，我更倾向于支持[观点]。",
+          "slots": [
+            "opinion"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-pos-006",
+          "text": "I believe that this trend is largely positive, although it may also bring some problems.",
+          "zh": "我认为这一趋势总体上是积极的，尽管它也可能带来一些问题。",
+          "slots": [],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "first-reason",
+      "functionName": "表示第一个原因",
+      "purpose": "用于主体段第一论点或主要原因。",
+      "templates": [
+        {
+          "id": "tpl-r1-001",
+          "text": "One major reason is that [reason].",
+          "zh": "一个主要原因是[原因]。",
+          "slots": [
+            "reason"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-r1-002",
+          "text": "The first point to consider is that [reason].",
+          "zh": "首先需要考虑的是[原因]。",
+          "slots": [
+            "reason"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-r1-003",
+          "text": "A key argument in favour of this view is that [reason].",
+          "zh": "支持这一观点的一个关键论点是[原因]。",
+          "slots": [
+            "reason"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-r1-004",
+          "text": "Perhaps the most important benefit of [topic] is that [benefit].",
+          "zh": "[话题]最重要的好处也许是[好处]。",
+          "slots": [
+            "topic",
+            "benefit"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-r1-005",
+          "text": "The primary reason why I support this view is that [reason].",
+          "zh": "我支持这一观点的主要原因是[原因]。",
+          "slots": [
+            "reason"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "second-reason",
+      "functionName": "表示第二个原因",
+      "purpose": "用于补充第二论点。",
+      "templates": [
+        {
+          "id": "tpl-r2-001",
+          "text": "Another important factor is [factor].",
+          "zh": "另一个重要因素是[因素]。",
+          "slots": [
+            "factor"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-r2-002",
+          "text": "In addition, [topic] can also [effect].",
+          "zh": "此外，[话题]也可以[效果]。",
+          "slots": [
+            "topic",
+            "effect"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-r2-003",
+          "text": "A further reason is that [reason].",
+          "zh": "进一步的原因是[原因]。",
+          "slots": [
+            "reason"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-r2-004",
+          "text": "This issue is also closely related to [factor].",
+          "zh": "这一问题也与[因素]密切相关。",
+          "slots": [
+            "factor"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-r2-005",
+          "text": "Apart from this, [topic] may also contribute to [effect].",
+          "zh": "除此之外，[话题]也可能促成[效果]。",
+          "slots": [
+            "topic",
+            "effect"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "opposing-view",
+      "functionName": "表示反方观点",
+      "purpose": "用于让步或讨论反方。",
+      "templates": [
+        {
+          "id": "tpl-opp-001",
+          "text": "Admittedly, [opposing view].",
+          "zh": "不可否认，[反方观点]。",
+          "slots": [
+            "opposing view"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-opp-002",
+          "text": "It is true that [opposing argument].",
+          "zh": "确实，[反方论点]。",
+          "slots": [
+            "opposing argument"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-opp-003",
+          "text": "Some people may argue that [opposing view].",
+          "zh": "一些人可能会认为[反方观点]。",
+          "slots": [
+            "opposing view"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-opp-004",
+          "text": "There is no denying that [opposing point].",
+          "zh": "不可否认，[反方点]。",
+          "slots": [
+            "opposing point"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-opp-005",
+          "text": "Opponents of this view may claim that [opposing argument].",
+          "zh": "该观点的反对者可能声称[反方论点]。",
+          "slots": [
+            "opposing argument"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal",
+      "functionName": "反驳反方",
+      "purpose": "用于承认问题后指出不足或解决方式。",
+      "templates": [
+        {
+          "id": "tpl-reb-001",
+          "text": "However, this argument overlooks the fact that [counterargument].",
+          "zh": "然而，这一论点忽视了[反驳点]这一事实。",
+          "slots": [
+            "counterargument"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-reb-002",
+          "text": "Nevertheless, this problem can be addressed if [solution].",
+          "zh": "然而，如果[方案]，这个问题可以得到解决。",
+          "slots": [
+            "solution"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-reb-003",
+          "text": "Despite this concern, I believe the benefits are more significant.",
+          "zh": "尽管存在这一担忧，我认为好处更显著。",
+          "slots": [],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-reb-004",
+          "text": "This view is understandable, but it does not fully consider [factor].",
+          "zh": "这种观点可以理解，但它没有充分考虑[因素]。",
+          "slots": [
+            "factor"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-reb-005",
+          "text": "Although this problem exists, it can be reduced through [method].",
+          "zh": "虽然这个问题存在，但可以通过[方法]减少。",
+          "slots": [
+            "method"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "explanation",
+      "functionName": "解释原因",
+      "purpose": "用于展开论证。",
+      "templates": [
+        {
+          "id": "tpl-exp-001",
+          "text": "This is mainly because [reason].",
+          "zh": "这主要是因为[原因]。",
+          "slots": [
+            "reason"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-exp-002",
+          "text": "The reason for this is that [reason].",
+          "zh": "其原因在于[原因]。",
+          "slots": [
+            "reason"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-exp-003",
+          "text": "This can be explained by the fact that [explanation].",
+          "zh": "这可以通过[解释]这一事实来说明。",
+          "slots": [
+            "explanation"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-exp-004",
+          "text": "One possible explanation is that [explanation].",
+          "zh": "一个可能的解释是[解释]。",
+          "slots": [
+            "explanation"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-exp-005",
+          "text": "This results from a combination of [factor A] and [factor B].",
+          "zh": "这是由[因素A]和[因素B]共同造成的。",
+          "slots": [
+            "factor A",
+            "factor B"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-exp-006",
+          "text": "The underlying reason is that [reason].",
+          "zh": "根本原因在于[原因]。",
+          "slots": [
+            "reason"
+          ],
+          "level": "hard"
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "functionName": "举例",
+      "purpose": "用于给出具体例子。",
+      "templates": [
+        {
+          "id": "tpl-exa-001",
+          "text": "For example, [example].",
+          "zh": "例如，[例子]。",
+          "slots": [
+            "example"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-exa-002",
+          "text": "For instance, [example].",
+          "zh": "例如，[例子]。",
+          "slots": [
+            "example"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-exa-003",
+          "text": "A good example of this is [example].",
+          "zh": "一个很好的例子是[例子]。",
+          "slots": [
+            "example"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-exa-004",
+          "text": "This can be seen in the case of [example].",
+          "zh": "这可以从[例子]的案例中看出。",
+          "slots": [
+            "example"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-exa-005",
+          "text": "To illustrate this point, [example].",
+          "zh": "为了说明这一点，[例子]。",
+          "slots": [
+            "example"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-exa-006",
+          "text": "This is particularly common in [place/group], where [example].",
+          "zh": "这在[地方/群体]中尤其常见，在那里[例子]。",
+          "slots": [
+            "place/group",
+            "example"
+          ],
+          "level": "hard"
+        }
+      ]
+    },
+    {
+      "id": "result-impact",
+      "functionName": "表示结果和影响",
+      "purpose": "用于说明正负结果。",
+      "templates": [
+        {
+          "id": "tpl-res-001",
+          "text": "As a result, [result].",
+          "zh": "因此，[结果]。",
+          "slots": [
+            "result"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-res-002",
+          "text": "Consequently, [result].",
+          "zh": "因此，[结果]。",
+          "slots": [
+            "result"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-res-003",
+          "text": "This may lead to [negative result].",
+          "zh": "这可能导致[负面结果]。",
+          "slots": [
+            "negative result"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-res-004",
+          "text": "This can contribute to [positive/negative result].",
+          "zh": "这可能促成[积极/消极结果]。",
+          "slots": [
+            "positive/negative result"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-res-005",
+          "text": "In the long term, this may improve [area].",
+          "zh": "从长期来看，这可能改善[领域]。",
+          "slots": [
+            "area"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-res-006",
+          "text": "This may place greater pressure on [group/system].",
+          "zh": "这可能给[群体/系统]带来更大压力。",
+          "slots": [
+            "group/system"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "functionName": "表示比较和对比",
+      "purpose": "用于比较两种选择、措施或观点。",
+      "templates": [
+        {
+          "id": "tpl-com-001",
+          "text": "Compared with [A], [B] is more likely to [verb].",
+          "zh": "与[A]相比，[B]更有可能[动词]。",
+          "slots": [
+            "A",
+            "B",
+            "verb"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-com-002",
+          "text": "Unlike [A], [B] tends to [verb].",
+          "zh": "不同于[A]，[B]往往会[动词]。",
+          "slots": [
+            "A",
+            "B",
+            "verb"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-com-003",
+          "text": "While [A] may [verb A], [B] can [verb B].",
+          "zh": "虽然[A]可能[动作A]，但[B]可以[动作B]。",
+          "slots": [
+            "A",
+            "verb A",
+            "B",
+            "verb B"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-com-004",
+          "text": "This is more effective than [alternative] because [reason].",
+          "zh": "这比[替代方案]更有效，因为[原因]。",
+          "slots": [
+            "alternative",
+            "reason"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-com-005",
+          "text": "Although [A] has some benefits, [B] may be more suitable in the long term.",
+          "zh": "尽管[A]有一些好处，但从长期来看[B]可能更合适。",
+          "slots": [
+            "A",
+            "B"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "solution",
+      "functionName": "表示解决方案",
+      "purpose": "用于提出措施、建议或政策。",
+      "templates": [
+        {
+          "id": "tpl-sol-001",
+          "text": "One possible solution is to [solution].",
+          "zh": "一个可能的解决方案是[方案]。",
+          "slots": [
+            "solution"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-sol-002",
+          "text": "Governments should take measures to [goal].",
+          "zh": "政府应该采取措施来[目标]。",
+          "slots": [
+            "goal"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-sol-003",
+          "text": "Schools and families need to work together to [goal].",
+          "zh": "学校和家庭需要共同努力来[目标]。",
+          "slots": [
+            "goal"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-sol-004",
+          "text": "Companies should be encouraged to [action].",
+          "zh": "应该鼓励公司[行动]。",
+          "slots": [
+            "action"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-sol-005",
+          "text": "A more effective approach would be to [solution].",
+          "zh": "一种更有效的方法是[方案]。",
+          "slots": [
+            "solution"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-sol-006",
+          "text": "More resources should be allocated to [area].",
+          "zh": "应该向[领域]分配更多资源。",
+          "slots": [
+            "area"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "functionName": "结论段",
+      "purpose": "用于总结观点。",
+      "templates": [
+        {
+          "id": "tpl-end-001",
+          "text": "In conclusion, I believe that [summary of opinion].",
+          "zh": "总之，我认为[观点总结]。",
+          "slots": [
+            "summary of opinion"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-end-002",
+          "text": "Overall, although [opposing point], I would argue that [your opinion].",
+          "zh": "总体而言，虽然[反方点]，但我认为[你的观点]。",
+          "slots": [
+            "opposing point",
+            "your opinion"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-end-003",
+          "text": "To sum up, [topic] has both advantages and disadvantages, but its benefits are more significant.",
+          "zh": "总之，[话题]有利有弊，但其好处更为显著。",
+          "slots": [
+            "topic"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-end-004",
+          "text": "In my opinion, the best approach is to [solution/balanced view].",
+          "zh": "在我看来，最好的方法是[方案/平衡观点]。",
+          "slots": [
+            "solution/balanced view"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-end-005",
+          "text": "Therefore, it is important for [group] to [action].",
+          "zh": "因此，[群体][行动]是重要的。",
+          "slots": [
+            "group",
+            "action"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "speaking",
+      "functionName": "口语自然表达",
+      "purpose": "用于将书面观点变成更自然的口语回答。",
+      "templates": [
+        {
+          "id": "tpl-spk-001",
+          "text": "I think [opinion], mainly because [reason].",
+          "zh": "我认为[观点]，主要是因为[原因]。",
+          "slots": [
+            "opinion",
+            "reason"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-spk-002",
+          "text": "One thing I find interesting is that [idea].",
+          "zh": "我觉得有意思的一点是[想法]。",
+          "slots": [
+            "idea"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-spk-003",
+          "text": "A simple example would be [example].",
+          "zh": "一个简单的例子是[例子]。",
+          "slots": [
+            "example"
+          ],
+          "level": "easy"
+        },
+        {
+          "id": "tpl-spk-004",
+          "text": "So overall, I would say that [summary].",
+          "zh": "所以总体来说，我会说[总结]。",
+          "slots": [
+            "summary"
+          ],
+          "level": "easy"
+        }
+      ]
+    }
+  ],
+  "usefulModifiers": {
+    "重要程度": [
+      "important",
+      "essential",
+      "crucial",
+      "significant",
+      "vital",
+      "fundamental"
+    ],
+    "积极作用": [
+      "beneficial",
+      "valuable",
+      "meaningful",
+      "productive",
+      "rewarding",
+      "advantageous"
+    ],
+    "消极影响": [
+      "harmful",
+      "damaging",
+      "detrimental",
+      "problematic",
+      "undesirable"
+    ],
+    "普遍性": [
+      "common",
+      "widespread",
+      "prevalent",
+      "frequent",
+      "universal"
+    ],
+    "复杂性": [
+      "complex",
+      "multifaceted",
+      "controversial",
+      "sensitive",
+      "complicated"
+    ],
+    "可行性": [
+      "effective",
+      "efficient",
+      "practical",
+      "feasible",
+      "realistic"
+    ],
+    "变化程度": [
+      "rapidly",
+      "dramatically",
+      "significantly",
+      "substantially",
+      "gradually",
+      "steadily",
+      "increasingly"
+    ]
+  }
+}

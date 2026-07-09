@@ -1,0 +1,325 @@
+IELTS Expression Trainer 项目知识库（v2.0 扩展版）
+=====================================================
+
+一、这个知识库现在的定位
+------------------------
+
+这份知识库不再只是普通的“雅思写作模板句集合”，而是 IELTS Expression Trainer 本地练习项目的核心内容说明。
+
+它服务三个目标：
+
+1. 作为知识库页面 knowledge.html 中可阅读、可搜索的文本材料。
+2. 作为 data/templates.txt、data/themes.txt、data/questions.txt 的人工说明。
+3. 作为你进行“拼句题 → 自由表达题 → AI 反馈 → 复练”的训练手册。
+
+原始版本的核心思路是正确的：不要机械背模板，而要按“功能”积累表达，再用不同主题替换关键词，最后连接成句子和段落。这个版本保留这一原则，并让内容更适合当前项目。
+
+
+二、项目中的四类核心数据
+------------------------
+
+1. templates.txt：通用句型模板库
+   - 负责“怎么表达”。
+   - 例如：表明立场、解释原因、举例、结果影响、让步反驳、解决方案、结论等。
+   - 每个模板都有唯一 id，可被题目引用。
+
+2. themes.txt：主题与概念词汇库
+   - 负责“说什么内容”。
+   - 例如：教育、科技、环境、健康、工作、社会、家庭、媒体、文化、犯罪、城市、全球化、旅游、政府政策、消费、科学等。
+   - 每个主题包含核心词汇、常用观点和 practiceSemantics 语义字段。
+
+3. questions.txt：练习题库
+   - 负责“怎么练”。
+   - build 拼句题训练“模板 + 词汇”的自动组合。
+   - free 自由表达题训练主动输出，并通过 AI 评判提示词获得反馈。
+
+4. prompts.txt：提示词工具
+   - 用于让 AI 继续生成主题、题目、项目修改方案或 CSS 主题。
+
+
+三、表达学习的基本原则
+----------------------
+
+不要把模板当作整段文章去背。你真正要训练的是“表达功能”。
+
+也就是说，你看到一个题目后，要先判断自己需要哪类句子：
+
+1. 引入背景：说明这个话题为什么值得讨论。
+2. 改写题目：把题干观点换一种说法。
+3. 表明立场：清楚说出自己的观点。
+4. 第一个原因：提出主体段最重要的理由。
+5. 第二个原因：补充另一个理由或影响。
+6. 反方观点：承认另一边的合理性。
+7. 反驳反方：指出反方不足或给出解决方式。
+8. 解释原因：说明为什么会这样。
+9. 举例：给出具体、自然、合理的例子。
+10. 结果影响：说明一个行为或现象带来的后果。
+11. 比较对比：比较两种选择或措施。
+12. 解决方案：提出具体可执行的措施。
+13. 结论总结：收束全文或回答。
+
+
+四、推荐训练路径
+----------------
+
+第一阶段：识别表达
+你需要先熟悉每种功能句的基本形状。
+
+例如：
+
+In my view, [opinion].
+One major reason is that [reason].
+This is mainly because [reason].
+For example, [example].
+As a result, [result].
+
+第二阶段：拼出表达
+使用 build 拼句题，把“模板片段”和“主题词汇片段”拼成完整句子。
+
+这一步的重点不是拼写，而是：
+- 选择合适的表达功能。
+- 判断语序。
+- 判断哪个主题词适合放入哪个位置。
+- 熟悉同一批表达的重复出现。
+
+第三阶段：替换表达
+把同一句型换到不同主题中使用。
+
+例如：
+
+One major reason is that online learning can improve learning efficiency.
+One major reason is that public transport can reduce traffic congestion.
+One major reason is that preventive healthcare can reduce medical costs.
+One major reason is that rehabilitation can reduce reoffending.
+
+第四阶段：自由输出
+使用 free 自由表达题写句子、主体段、口语回答或微型作文。
+
+最低要求：
+- 至少使用 2 个模板。
+- 至少使用 3 个主题词。
+- 至少包含观点、原因、解释、例子、结果或让步反驳中的 3 个部分。
+
+第五阶段：反馈修改
+点击“复制 AI 评判提示词”，把题目信息和你的回答交给 AI 评价。
+重点看：
+- 是否回应题目。
+- 逻辑是否完整。
+- 表达是否自然。
+- 哪些模板用得生硬。
+- 哪些主题词搭配不自然。
+
+
+五、功能型句型库
+----------------
+
+下面是项目中最重要的表达功能。完整结构见 data/templates.txt。
+
+1. 引入背景
+
+Many people today are concerned about the issue of [topic].
+In recent years, [topic] has become a widely discussed issue.
+There has been growing debate over whether [statement].
+With the development of [field], [topic] has attracted increasing public attention.
+
+2. 改写题目
+
+Some people argue that [view A], while others believe that [view B].
+It is often claimed that [view A]. However, others maintain that [view B].
+People have different views about whether [statement].
+The debate over [topic] usually centres on whether [view A] or [view B] is more reasonable.
+
+3. 表明立场
+
+In my view, [opinion].
+I tend to agree with the view that [opinion].
+Although both views have some merit, I would argue that [position].
+Overall, I am more inclined to support the idea that [opinion].
+
+4. 表示第一个原因
+
+One major reason is that [reason].
+The first point to consider is that [reason].
+A key argument in favour of this view is that [reason].
+Perhaps the most important benefit of [topic] is that [benefit].
+
+5. 表示第二个原因
+
+Another important factor is [factor].
+In addition, [topic] can also [effect].
+A further reason is that [reason].
+Apart from this, [topic] may also contribute to [effect].
+
+6. 表示反方观点
+
+Admittedly, [opposing view].
+It is true that [opposing argument].
+Some people may argue that [opposing view].
+There is no denying that [opposing point].
+
+7. 反驳反方
+
+However, this argument overlooks the fact that [counterargument].
+Nevertheless, this problem can be addressed if [solution].
+This view is understandable, but it does not fully consider [factor].
+Although this problem exists, it can be reduced through [method].
+
+8. 解释原因
+
+This is mainly because [reason].
+The reason for this is that [reason].
+This can be explained by the fact that [explanation].
+This results from a combination of [factor A] and [factor B].
+The underlying reason is that [reason].
+
+9. 举例
+
+For example, [example].
+For instance, [example].
+A good example of this is [example].
+This can be seen in the case of [example].
+To illustrate this point, [example].
+
+10. 表示结果和影响
+
+As a result, [result].
+Consequently, [result].
+This may lead to [negative result].
+This can contribute to [positive/negative result].
+In the long term, this may improve [area].
+This may place greater pressure on [group/system].
+
+11. 表示比较和对比
+
+Compared with [A], [B] is more likely to [verb].
+Unlike [A], [B] tends to [verb].
+While [A] may [verb A], [B] can [verb B].
+This is more effective than [alternative] because [reason].
+Although [A] has some benefits, [B] may be more suitable in the long term.
+
+12. 表示解决方案
+
+One possible solution is to [solution].
+Governments should take measures to [goal].
+Schools and families need to work together to [goal].
+Companies should be encouraged to [action].
+A more effective approach would be to [solution].
+More resources should be allocated to [area].
+
+13. 结论段
+
+In conclusion, I believe that [summary of opinion].
+Overall, although [opposing point], I would argue that [your opinion].
+To sum up, [topic] has both advantages and disadvantages, but its benefits are more significant.
+In my opinion, the best approach is to [solution/balanced view].
+
+
+六、主题库结构
+--------------
+
+本扩展版覆盖 16 个常见雅思主题：
+
+1. 教育：学校教育、在线学习、考试压力、技能培养、教育公平与终身学习。
+2. 科技与人工智能：人工智能、自动化、数字设备、数据隐私、信息过载与数字素养。
+3. 环境与气候：气候变化、污染、能源转型、公共交通、环保意识与可持续发展。
+4. 健康与生活方式：身体健康、心理健康、公共卫生、医疗服务、运动饮食与压力管理。
+5. 工作与经济：就业、职业发展、远程办公、工作压力、收入差距、经济增长与工作生活平衡。
+6. 社会与公共服务：社会公平、公共服务、社区支持、养老、公共安全和社会稳定。
+7. 家庭与儿童：家庭教育、亲子关系、儿童发展、屏幕使用、纪律与独立性。
+8. 媒体与广告：新闻媒体、社交媒体、广告、虚假信息、消费者行为和媒体素养。
+9. 文化与艺术：文化遗产、艺术教育、博物馆、传统文化、创意产业与文化多样性。
+10. 犯罪与法律：犯罪预防、惩罚与教育、青少年犯罪、监狱、社会安全与法律意识。
+11. 城市、住房与交通：城市化、住房负担、公共交通、交通拥堵、城市规划与生活质量。
+12. 全球化与国际交流：全球化、国际贸易、文化交流、移民、跨国合作与本土文化保护。
+13. 旅游与旅行：旅游业、文化交流、生态旅游、过度旅游、当地社区与经济影响。
+14. 政府与公共政策：政府责任、公共支出、税收、监管、个人自由与公共利益。
+15. 食物、消费与生活方式：消费主义、食品健康、快餐、浪费、购物习惯、可持续消费。
+16. 科学与太空探索：科学研究、太空探索、公共投资、技术创新、基础研究与社会回报。
+
+每个主题都尽量避免冗余：
+- 教育关注学校、学习和技能。
+- 科技关注 AI、隐私、自动化和数字素养。
+- 环境关注气候、能源、污染和可持续发展。
+- 健康关注生活方式、医疗和心理健康。
+- 工作经济关注就业、职场和经济压力。
+- 社会公共服务关注公平、福利、社区和公共安全。
+- 家庭儿童关注亲子关系、儿童发展和屏幕使用。
+- 媒体广告关注社交媒体、虚假信息和消费影响。
+- 文化艺术关注文化遗产、艺术教育和创意产业。
+- 犯罪法律关注犯罪预防、惩罚和康复。
+- 城市住房交通关注城市规划、住房和通勤。
+- 全球化关注国际贸易、文化交流和跨国合作。
+- 旅游旅行关注旅游业、生态旅游和当地社区。
+- 政府政策关注政府责任、公共支出和监管。
+- 食物消费关注消费主义、食品健康和浪费。
+- 科学太空关注科学投资、基础研究和社会回报。
+
+
+七、题库结构
+------------
+
+本扩展版题库共 672 道题：
+
+- 每个主题 22 道 build 拼句题。
+- 每个主题 20 道 free 自由表达题。
+- 每个主题共 42 道题。
+- 所有题目覆盖引入背景、改写题目、表明立场、原因、反方、反驳、解释、例子、结果、比较、解决方案、结论等核心功能。
+
+build 拼句题的作用：
+- 让你通过选择和排序熟悉句型结构。
+- 避免把精力浪费在拼写上。
+- 让同一类表达反复出现，形成自动化。
+
+free 自由表达题的作用：
+- 训练真实写作和口语输出。
+- 允许多种合理答案。
+- 保存历史回答，方便复盘。
+- 通过 AI 评判提示词获得个性化反馈。
+
+
+八、每日训练建议
+----------------
+
+30 分钟版本：
+
+1. 5 分钟：知识库中选一个功能句型。
+2. 10 分钟：做 5-8 道 build 拼句题。
+3. 10 分钟：做 1 道 free 自由表达题。
+4. 5 分钟：复制 AI 评判提示词，获取反馈并改写一句。
+
+45 分钟版本：
+
+1. 5 分钟：复习昨天的 3 个表达。
+2. 15 分钟：做 8-10 道 build 拼句题。
+3. 15 分钟：写 1 个主体段或口语回答。
+4. 10 分钟：AI 反馈 + 二次修改。
+
+
+九、掌握标准
+------------
+
+初级掌握：
+- 能看懂模板。
+- 能完成大部分 build 拼句题。
+- 能写简单观点句和原因句。
+
+中级掌握：
+- 能把同一个模板换到不同主题。
+- 能写 4-5 句主体段。
+- 能主动使用原因、例子、结果和解决方案。
+
+高级掌握：
+- 不看提示也能写自然段落。
+- 能根据题目自动选择表达功能。
+- 能把写作句型转为自然口语回答。
+- 能发现并修改自己的不自然表达。
+
+
+十、注意事项
+------------
+
+1. 不要贪多。模板数量多是为了覆盖场景，真正要熟练的是高频核心句型。
+2. 不要机械套模板。每次都要替换主题词，让句子适配题目。
+3. 不要忽视例子。雅思表达中的例子不需要复杂数据，但必须具体。
+4. 不要只做拼句题。拼句题是热身，自由表达题才是最终输出训练。
+5. 不要只看 AI 反馈。必须根据反馈重写一次，才算完成一次有效训练。
