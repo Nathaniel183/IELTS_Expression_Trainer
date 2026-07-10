@@ -1,0 +1,47 @@
+{
+  "version": "3.0",
+  "prompts": [
+    {
+      "id": "generate-theme",
+      "title": "生成新主题",
+      "description": "让 AI 按新版数据结构添加主题。",
+      "buttonText": "复制主题提示词",
+      "text": "我正在维护本地静态项目 IELTS Expression Trainer。请为项目新增一个主题，输出可直接加入 data/themes.txt 的合法 JSON theme 对象。主题需要包含 id、name、icon、description、coreVocab 和 commonClaims。词汇应自然、常用、适合雅思口语和写作，不要为了高级而使用生僻表达。请避免与已有主题重复。只输出 JSON，不要使用 Markdown 代码围栏。"
+    },
+    {
+      "id": "generate-build-questions",
+      "title": "生成拼句题",
+      "description": "生成符合新版颗粒度的拼句题。",
+      "buttonText": "复制拼句题提示词",
+      "text": "我正在维护 IELTS Expression Trainer。请根据我提供的主题和 data/taxonomy.txt，生成 build 拼句题 JSON。要求：\n1. 题干必须全部使用中文，可采用中文直接表达、问题回答、情景任务或上下文衔接。\n2. 英文答案应自然、清楚，适合雅思口语或写作，不要强行华丽化基础表达。\n3. tokens 必须拆成单词或短语；每个 token 最多约 5 个英文单词，不要把完整长从句作为一个选项。\n4. token.kind 只能是 structure 或 concept。干扰项也必须使用这两种类别，不能设置 distractor 类别或特殊颜色。\n5. 每题加入 1—2 个自然但不正确的干扰项。\n6. 提供 primaryFunction、subFunction、mode、promptForm 和 secondaryTags。\n7. acceptableAnswers 使用 token id 的正确顺序，可以提供多个可接受答案。\n8. 优先保证语用自然、搭配准确和情景真实。\n只输出可加入 data/questions.txt 的合法 JSON 数组。"
+    },
+    {
+      "id": "generate-free-questions",
+      "title": "生成自由表达题",
+      "description": "按现有结构扩充自由表达。",
+      "buttonText": "复制自由题提示词",
+      "text": "请为 IELTS Expression Trainer 的指定主题生成 free 自由表达题。题干使用中文，覆盖句子、口语回答、主体段、问题解决段、经历叙述和微型作文。每题包含 suggestedTemplateIds、suggestedVocabIds、sampleAnswer 和 rubric。示范答案应自然、清楚、符合雅思水平，不要过度华丽。只输出合法 JSON 数组。"
+    },
+    {
+      "id": "modify-project",
+      "title": "修改整个项目",
+      "description": "上传项目压缩包后追加需求。",
+      "buttonText": "复制项目提示词",
+      "text": "我上传的是本地静态网页项目 IELTS Expression Trainer。请保持项目名称不变。项目使用 HTML、CSS、JavaScript 和 JSON 格式 txt 数据文件。请先检查 data/taxonomy.txt、templates.txt、themes.txt 和 questions.txt，再根据我的要求修改。要求保持电脑和手机适配；页面提示使用组件而不是浏览器弹窗；拼句题的结构词和概念词可以用不同颜色，但干扰项不得使用特殊颜色；不要破坏现有 localStorage 进度结构。请返回完整可运行 zip。我的需求是：【填写需求】。"
+    },
+    {
+      "id": "css-theme",
+      "title": "生成视觉主题",
+      "description": "替换 CSS 变量实现换肤。",
+      "buttonText": "复制换肤提示词",
+      "text": "请为 IELTS Expression Trainer 生成一套现代简约 CSS 主题。项目通过 :root 变量控制 --bg、--surface、--text、--muted、--primary、--accent、--border、--shadow 等。请只输出可替换的变量和必要背景样式，不要修改类名，不要使用外部字体或图片。风格要求：【填写风格】。"
+    },
+    {
+      "id": "ai-review",
+      "title": "AI 评判模板",
+      "description": "自由表达题自动填入题目和回答。",
+      "buttonText": "复制评判模板",
+      "text": "你是一名雅思口语与写作表达教练。请评价下面的英文回答。\n\n题目：\n{{question}}\n\n我的回答：\n{{answer}}\n\n请用中文评价：\n1. 是否准确完成交际任务；\n2. 是否自然、清楚，语体是否合适；\n3. 语法、搭配和逻辑问题；\n4. 是否有效使用主题词和功能句型；\n5. 给出自然的改写版本；\n6. 给出三条下一次练习重点。\n\n不要为了显得高级而把自然的基础表达替换成生僻或过度华丽的表达。"
+    }
+  ]
+}
