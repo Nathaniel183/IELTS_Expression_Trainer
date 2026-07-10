@@ -1,0 +1,1025 @@
+{
+  "version": "4.0",
+  "themes": [
+    {
+      "id": "education",
+      "name": "教育与学习",
+      "icon": "🎓",
+      "description": "学校、课程、在线学习、技能培养和学习体验。",
+      "coreVocab": [
+        {
+          "id": "education-v001",
+          "en": "online learning",
+          "zh": "在线学习",
+          "type": "core"
+        },
+        {
+          "id": "education-v002",
+          "en": "educational resources",
+          "zh": "教育资源",
+          "type": "core"
+        },
+        {
+          "id": "education-v003",
+          "en": "practical skills",
+          "zh": "实践技能",
+          "type": "core"
+        },
+        {
+          "id": "education-v004",
+          "en": "critical thinking",
+          "zh": "批判性思维",
+          "type": "core"
+        },
+        {
+          "id": "education-v005",
+          "en": "student motivation",
+          "zh": "学习动力",
+          "type": "core"
+        },
+        {
+          "id": "education-v006",
+          "en": "academic performance",
+          "zh": "学业表现",
+          "type": "core"
+        },
+        {
+          "id": "education-v007",
+          "en": "classroom interaction",
+          "zh": "课堂互动",
+          "type": "core"
+        },
+        {
+          "id": "education-v008",
+          "en": "teacher feedback",
+          "zh": "教师反馈",
+          "type": "core"
+        },
+        {
+          "id": "education-v009",
+          "en": "study habits",
+          "zh": "学习习惯",
+          "type": "core"
+        },
+        {
+          "id": "education-v010",
+          "en": "digital learning platforms",
+          "zh": "数字学习平台",
+          "type": "core"
+        },
+        {
+          "id": "education-v011",
+          "en": "self-discipline",
+          "zh": "自律",
+          "type": "core"
+        },
+        {
+          "id": "education-v012",
+          "en": "vocational training",
+          "zh": "职业培训",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, schools should balance academic knowledge with practical skills.",
+        "One major reason is that students need skills that they can use outside the classroom.",
+        "One possible solution is to include more projects, discussions and practical tasks."
+      ]
+    },
+    {
+      "id": "technology-media",
+      "name": "科技、媒体与人工智能",
+      "icon": "🤖",
+      "description": "人工智能、数字设备、社交媒体、信息和数据隐私。",
+      "coreVocab": [
+        {
+          "id": "technology-media-v001",
+          "en": "artificial intelligence",
+          "zh": "人工智能",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v002",
+          "en": "data privacy",
+          "zh": "数据隐私",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v003",
+          "en": "digital literacy",
+          "zh": "数字素养",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v004",
+          "en": "social media platforms",
+          "zh": "社交媒体平台",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v005",
+          "en": "online communication",
+          "zh": "线上交流",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v006",
+          "en": "information overload",
+          "zh": "信息过载",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v007",
+          "en": "algorithmic bias",
+          "zh": "算法偏差",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v008",
+          "en": "cybersecurity",
+          "zh": "网络安全",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v009",
+          "en": "screen time",
+          "zh": "屏幕使用时间",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v010",
+          "en": "automation",
+          "zh": "自动化",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v011",
+          "en": "misinformation",
+          "zh": "虚假信息",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v012",
+          "en": "responsible innovation",
+          "zh": "负责任的创新",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, AI should be used carefully and supported by clear rules.",
+        "One major reason is that it can improve efficiency in education, healthcare and business.",
+        "One possible solution is to teach media literacy and label unreliable content clearly."
+      ]
+    },
+    {
+      "id": "health",
+      "name": "健康与生活方式",
+      "icon": "🏃",
+      "description": "运动、饮食、睡眠、心理健康、医疗和健康习惯。",
+      "coreVocab": [
+        {
+          "id": "health-v001",
+          "en": "regular exercise",
+          "zh": "规律运动",
+          "type": "core"
+        },
+        {
+          "id": "health-v002",
+          "en": "balanced diet",
+          "zh": "均衡饮食",
+          "type": "core"
+        },
+        {
+          "id": "health-v003",
+          "en": "mental health",
+          "zh": "心理健康",
+          "type": "core"
+        },
+        {
+          "id": "health-v004",
+          "en": "preventive healthcare",
+          "zh": "预防性医疗",
+          "type": "core"
+        },
+        {
+          "id": "health-v005",
+          "en": "sleep quality",
+          "zh": "睡眠质量",
+          "type": "core"
+        },
+        {
+          "id": "health-v006",
+          "en": "stress management",
+          "zh": "压力管理",
+          "type": "core"
+        },
+        {
+          "id": "health-v007",
+          "en": "medical services",
+          "zh": "医疗服务",
+          "type": "core"
+        },
+        {
+          "id": "health-v008",
+          "en": "healthy lifestyle",
+          "zh": "健康生活方式",
+          "type": "core"
+        },
+        {
+          "id": "health-v009",
+          "en": "public health",
+          "zh": "公共健康",
+          "type": "core"
+        },
+        {
+          "id": "health-v010",
+          "en": "emotional well-being",
+          "zh": "情绪健康",
+          "type": "core"
+        },
+        {
+          "id": "health-v011",
+          "en": "health awareness",
+          "zh": "健康意识",
+          "type": "core"
+        },
+        {
+          "id": "health-v012",
+          "en": "community sports facilities",
+          "zh": "社区体育设施",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, individual effort should be supported by better health education and public facilities.",
+        "One major reason is that many preventable diseases are linked to daily habits.",
+        "One possible solution is to make exercise easier to include in daily routines."
+      ]
+    },
+    {
+      "id": "environment-city",
+      "name": "环境、城市与交通",
+      "icon": "🌱",
+      "description": "气候、污染、公共交通、住房、城市规划和可持续生活。",
+      "coreVocab": [
+        {
+          "id": "environment-city-v001",
+          "en": "public transport",
+          "zh": "公共交通",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v002",
+          "en": "traffic congestion",
+          "zh": "交通拥堵",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v003",
+          "en": "carbon emissions",
+          "zh": "碳排放",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v004",
+          "en": "renewable energy",
+          "zh": "可再生能源",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v005",
+          "en": "affordable housing",
+          "zh": "可负担住房",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v006",
+          "en": "urban planning",
+          "zh": "城市规划",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v007",
+          "en": "air pollution",
+          "zh": "空气污染",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v008",
+          "en": "green spaces",
+          "zh": "城市绿地",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v009",
+          "en": "sustainable development",
+          "zh": "可持续发展",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v010",
+          "en": "energy consumption",
+          "zh": "能源消耗",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v011",
+          "en": "recycling systems",
+          "zh": "回收系统",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v012",
+          "en": "commuting time",
+          "zh": "通勤时间",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, cities should give higher priority to public transport and safe walking routes.",
+        "One major reason is that private cars use road space inefficiently in crowded areas.",
+        "One possible solution is to develop affordable housing near reliable public transport."
+      ]
+    },
+    {
+      "id": "work-economy",
+      "name": "工作、职业与经济",
+      "icon": "💼",
+      "description": "求职、职业发展、远程办公、工作压力、收入和职场沟通。",
+      "coreVocab": [
+        {
+          "id": "work-economy-v001",
+          "en": "career development",
+          "zh": "职业发展",
+          "type": "core"
+        },
+        {
+          "id": "work-economy-v002",
+          "en": "work-life balance",
+          "zh": "工作生活平衡",
+          "type": "core"
+        },
+        {
+          "id": "work-economy-v003",
+          "en": "professional skills",
+          "zh": "专业技能",
+          "type": "core"
+        },
+        {
+          "id": "work-economy-v004",
+          "en": "workplace pressure",
+          "zh": "职场压力",
+          "type": "core"
+        },
+        {
+          "id": "work-economy-v005",
+          "en": "job satisfaction",
+          "zh": "工作满意度",
+          "type": "core"
+        },
+        {
+          "id": "work-economy-v006",
+          "en": "remote work",
+          "zh": "远程办公",
+          "type": "core"
+        },
+        {
+          "id": "work-economy-v007",
+          "en": "flexible working hours",
+          "zh": "弹性工作时间",
+          "type": "core"
+        },
+        {
+          "id": "work-economy-v008",
+          "en": "labour market",
+          "zh": "劳动力市场",
+          "type": "core"
+        },
+        {
+          "id": "work-economy-v009",
+          "en": "employee training",
+          "zh": "员工培训",
+          "type": "core"
+        },
+        {
+          "id": "work-economy-v010",
+          "en": "productivity",
+          "zh": "生产力",
+          "type": "core"
+        },
+        {
+          "id": "work-economy-v011",
+          "en": "economic stability",
+          "zh": "经济稳定",
+          "type": "core"
+        },
+        {
+          "id": "work-economy-v012",
+          "en": "income inequality",
+          "zh": "收入不平等",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, flexible work is beneficial when goals and communication are clear.",
+        "One major reason is that it can reduce commuting time and improve work-life balance.",
+        "One possible solution is to improve management, training and access to flexible work."
+      ]
+    },
+    {
+      "id": "family-relationships",
+      "name": "家庭、人际关系与儿童",
+      "icon": "👨‍👩‍👧",
+      "description": "亲子关系、友谊、沟通、儿童发展、边界和情感支持。",
+      "coreVocab": [
+        {
+          "id": "family-relationships-v001",
+          "en": "parental guidance",
+          "zh": "家长指导",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v002",
+          "en": "child development",
+          "zh": "儿童发展",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v003",
+          "en": "emotional support",
+          "zh": "情感支持",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v004",
+          "en": "family relationships",
+          "zh": "家庭关系",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v005",
+          "en": "parent-child communication",
+          "zh": "亲子沟通",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v006",
+          "en": "personal boundaries",
+          "zh": "个人边界",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v007",
+          "en": "peer pressure",
+          "zh": "同伴压力",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v008",
+          "en": "independence",
+          "zh": "独立性",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v009",
+          "en": "responsibility",
+          "zh": "责任感",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v010",
+          "en": "online safety",
+          "zh": "网络安全",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v011",
+          "en": "social skills",
+          "zh": "社交技能",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v012",
+          "en": "role models",
+          "zh": "榜样",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, teenagers need increasing freedom together with clear responsibilities.",
+        "One major reason is that making choices helps young people develop independence.",
+        "One possible solution is to set aside regular time for shared activities and conversation."
+      ]
+    },
+    {
+      "id": "travel-culture",
+      "name": "旅行、文化与艺术",
+      "icon": "✈️",
+      "description": "旅行经历、旅游服务、文化差异、艺术、遗产和当地社区。",
+      "coreVocab": [
+        {
+          "id": "travel-culture-v001",
+          "en": "sustainable tourism",
+          "zh": "可持续旅游",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v002",
+          "en": "cultural heritage",
+          "zh": "文化遗产",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v003",
+          "en": "local communities",
+          "zh": "当地社区",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v004",
+          "en": "cultural exchange",
+          "zh": "文化交流",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v005",
+          "en": "historical sites",
+          "zh": "历史遗址",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v006",
+          "en": "responsible travel",
+          "zh": "负责任旅行",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v007",
+          "en": "public museums",
+          "zh": "公共博物馆",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v008",
+          "en": "local traditions",
+          "zh": "当地传统",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v009",
+          "en": "tourist attractions",
+          "zh": "旅游景点",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v010",
+          "en": "overcrowding",
+          "zh": "过度拥挤",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v011",
+          "en": "visitor management",
+          "zh": "游客管理",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v012",
+          "en": "creative industries",
+          "zh": "创意产业",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, tourism should be developed in a controlled and sustainable way.",
+        "One major reason is that it can create jobs and support local businesses.",
+        "One possible solution is to spread visitors across different places and times of year."
+      ]
+    },
+    {
+      "id": "society-public",
+      "name": "社会与公共服务",
+      "icon": "🏙️",
+      "description": "社会公平、社区、养老、教育医疗、公共安全和社会支持。",
+      "coreVocab": [
+        {
+          "id": "society-public-v001",
+          "en": "public services",
+          "zh": "公共服务",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v002",
+          "en": "social inequality",
+          "zh": "社会不平等",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v003",
+          "en": "community support",
+          "zh": "社区支持",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v004",
+          "en": "elderly care",
+          "zh": "养老照护",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v005",
+          "en": "living standards",
+          "zh": "生活水平",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v006",
+          "en": "vulnerable groups",
+          "zh": "弱势群体",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v007",
+          "en": "social trust",
+          "zh": "社会信任",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v008",
+          "en": "affordable services",
+          "zh": "可负担服务",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v009",
+          "en": "public safety",
+          "zh": "公共安全",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v010",
+          "en": "local organisations",
+          "zh": "当地组织",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v011",
+          "en": "social responsibility",
+          "zh": "社会责任",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v012",
+          "en": "welfare system",
+          "zh": "福利体系",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, basic public services should remain accessible to everyone.",
+        "One major reason is that they give vulnerable groups access to essential support.",
+        "One possible solution is to improve local access and simplify application procedures."
+      ]
+    },
+    {
+      "id": "government-law",
+      "name": "政府、法律与犯罪",
+      "icon": "⚖️",
+      "description": "政府责任、法律、犯罪预防、惩罚、康复和公众信任。",
+      "coreVocab": [
+        {
+          "id": "government-law-v001",
+          "en": "crime prevention",
+          "zh": "犯罪预防",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v002",
+          "en": "public safety",
+          "zh": "公共安全",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v003",
+          "en": "rehabilitation",
+          "zh": "康复改造",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v004",
+          "en": "law enforcement",
+          "zh": "执法",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v005",
+          "en": "legal awareness",
+          "zh": "法律意识",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v006",
+          "en": "public trust",
+          "zh": "公众信任",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v007",
+          "en": "strict punishment",
+          "zh": "严厉惩罚",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v008",
+          "en": "youth services",
+          "zh": "青少年服务",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v009",
+          "en": "social causes of crime",
+          "zh": "犯罪的社会原因",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v010",
+          "en": "government responsibility",
+          "zh": "政府责任",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v011",
+          "en": "transparent policy",
+          "zh": "透明政策",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v012",
+          "en": "restorative justice",
+          "zh": "修复性司法",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, a fair justice system should combine accountability with rehabilitation.",
+        "One major reason is that punishment alone does not always address the causes of offending.",
+        "One possible solution is to invest in early support, education and rehabilitation."
+      ]
+    },
+    {
+      "id": "science-data-process",
+      "name": "科学、数据与过程说明",
+      "icon": "🔬",
+      "description": "科学研究、实验、数据趋势、机制、图表和学术说明。",
+      "coreVocab": [
+        {
+          "id": "science-data-process-v001",
+          "en": "controlled experiment",
+          "zh": "对照实验",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v002",
+          "en": "data collection",
+          "zh": "数据收集",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v003",
+          "en": "research findings",
+          "zh": "研究发现",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v004",
+          "en": "scientific evidence",
+          "zh": "科学证据",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v005",
+          "en": "sample size",
+          "zh": "样本量",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v006",
+          "en": "measurement error",
+          "zh": "测量误差",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v007",
+          "en": "research funding",
+          "zh": "研究经费",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v008",
+          "en": "long-term trend",
+          "zh": "长期趋势",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v009",
+          "en": "cause and effect",
+          "zh": "因果关系",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v010",
+          "en": "reliable results",
+          "zh": "可靠结果",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v011",
+          "en": "vertical axis",
+          "zh": "纵轴",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v012",
+          "en": "uncertainty",
+          "zh": "不确定性",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, long-term research deserves support even when immediate results are uncertain.",
+        "One major reason is that basic discoveries can later lead to useful technologies.",
+        "One possible solution is to explain methods, limitations and uncertainty more clearly."
+      ]
+    },
+    {
+      "id": "daily-services",
+      "name": "日常生活与公共事务沟通",
+      "icon": "🛎️",
+      "description": "购物、预约、住宿、交通、维修、投诉、退款和公共服务沟通。",
+      "coreVocab": [
+        {
+          "id": "daily-services-v001",
+          "en": "booking confirmation",
+          "zh": "预订确认",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v002",
+          "en": "customer service",
+          "zh": "客户服务",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v003",
+          "en": "refund policy",
+          "zh": "退款政策",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v004",
+          "en": "faulty product",
+          "zh": "有故障的商品",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v005",
+          "en": "appointment time",
+          "zh": "预约时间",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v006",
+          "en": "delivery address",
+          "zh": "配送地址",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v007",
+          "en": "repair request",
+          "zh": "维修请求",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v008",
+          "en": "replacement item",
+          "zh": "替换商品",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v009",
+          "en": "service charge",
+          "zh": "服务费",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v010",
+          "en": "public information",
+          "zh": "公共信息",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v011",
+          "en": "cancellation fee",
+          "zh": "取消费用",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v012",
+          "en": "proof of purchase",
+          "zh": "购买凭证",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, online services are useful, but face-to-face support should remain available.",
+        "One major reason is that online systems can save time for routine requests.",
+        "One possible solution is to provide clear written procedures and consistent staff training."
+      ]
+    },
+    {
+      "id": "personal-growth",
+      "name": "个人经历、成长与未来计划",
+      "icon": "🌟",
+      "description": "个人目标、挑战、学习反思、习惯、选择、计划和自我提升。",
+      "coreVocab": [
+        {
+          "id": "personal-growth-v001",
+          "en": "personal goals",
+          "zh": "个人目标",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v002",
+          "en": "consistent practice",
+          "zh": "持续练习",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v003",
+          "en": "self-reflection",
+          "zh": "自我反思",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v004",
+          "en": "time management",
+          "zh": "时间管理",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v005",
+          "en": "long-term motivation",
+          "zh": "长期动力",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v006",
+          "en": "learning strategies",
+          "zh": "学习策略",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v007",
+          "en": "personal strengths",
+          "zh": "个人优势",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v008",
+          "en": "areas for improvement",
+          "zh": "需要改进的方面",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v009",
+          "en": "realistic priorities",
+          "zh": "现实优先事项",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v010",
+          "en": "feedback",
+          "zh": "反馈",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v011",
+          "en": "confidence",
+          "zh": "自信",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v012",
+          "en": "future plans",
+          "zh": "未来计划",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "In my view, consistent effort matters more for most long-term goals.",
+        "One major reason is that skills usually improve through repeated practice and feedback.",
+        "One possible solution is to break large goals into specific and achievable steps."
+      ]
+    }
+  ]
+}

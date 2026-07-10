@@ -1,0 +1,555 @@
+{
+  "version": "4.0",
+  "templateGroups": [
+    {
+      "id": "objective-description",
+      "functionName": "客观描述",
+      "purpose": "训练客观描述相关表达。",
+      "templates": [
+        {
+          "id": "tpl-obj-001",
+          "text": "[concept] refers to [definition].",
+          "zh": "[概念]指的是[定义]。",
+          "slots": [
+            "concept",
+            "definition"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-obj-002",
+          "text": "[concept] is mainly used to [purpose].",
+          "zh": "[概念]主要用于[用途]。",
+          "slots": [
+            "concept",
+            "purpose"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-obj-003",
+          "text": "One key feature of [concept] is [feature].",
+          "zh": "[概念]的一个主要特点是[特点]。",
+          "slots": [
+            "concept",
+            "feature"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-obj-004",
+          "text": "[place] is located [location].",
+          "zh": "[地点]位于[位置]。",
+          "slots": [
+            "place",
+            "location"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-obj-005",
+          "text": "The number of [item] has increased steadily.",
+          "zh": "[事物]的数量稳步增加。",
+          "slots": [
+            "item"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "action-process-event",
+      "functionName": "行为过程",
+      "purpose": "训练行为过程相关表达。",
+      "templates": [
+        {
+          "id": "tpl-act-001",
+          "text": "I usually [habit].",
+          "zh": "我通常[习惯]。",
+          "slots": [
+            "habit"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-act-002",
+          "text": "I do this by [method].",
+          "zh": "我通过[方法]做到这一点。",
+          "slots": [
+            "method"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-act-003",
+          "text": "First, [step one]. Then, [step two].",
+          "zh": "首先[步骤一]，然后[步骤二]。",
+          "slots": [
+            "step one",
+            "step two"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-act-004",
+          "text": "You need to [requirement].",
+          "zh": "你需要[要求]。",
+          "slots": [
+            "requirement"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-act-005",
+          "text": "This allows [result].",
+          "zh": "这能够[结果]。",
+          "slots": [
+            "result"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "narrative-experience",
+      "functionName": "经历叙述",
+      "purpose": "训练经历叙述相关表达。",
+      "templates": [
+        {
+          "id": "tpl-nar-001",
+          "text": "Last year, I [experience].",
+          "zh": "去年，我[经历]。",
+          "slots": [
+            "experience"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-nar-002",
+          "text": "At first, [event one], but then [event two].",
+          "zh": "起初[事件一]，但后来[事件二]。",
+          "slots": [
+            "event one",
+            "event two"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-nar-003",
+          "text": "The main difficulty was [difficulty].",
+          "zh": "主要困难是[困难]。",
+          "slots": [
+            "difficulty"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-nar-004",
+          "text": "To deal with this, I [action].",
+          "zh": "为了处理这个问题，我[行动]。",
+          "slots": [
+            "action"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-nar-005",
+          "text": "Looking back, I learned that [lesson].",
+          "zh": "回头来看，我认识到[收获]。",
+          "slots": [
+            "lesson"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "concept-explanation",
+      "functionName": "概念解释",
+      "purpose": "训练概念解释相关表达。",
+      "templates": [
+        {
+          "id": "tpl-con-001",
+          "text": "In simple terms, [concept] means that [explanation].",
+          "zh": "简单来说，[概念]意味着[解释]。",
+          "slots": [
+            "concept",
+            "explanation"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-con-002",
+          "text": "[concept] consists of [parts].",
+          "zh": "[概念]由[组成部分]组成。",
+          "slots": [
+            "concept",
+            "parts"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-con-003",
+          "text": "Its main purpose is to [purpose].",
+          "zh": "它的主要目的是[用途]。",
+          "slots": [
+            "purpose"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-con-004",
+          "text": "This works because [mechanism].",
+          "zh": "这之所以有效，是因为[机制]。",
+          "slots": [
+            "mechanism"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "personal-state-plan",
+      "functionName": "个人表达",
+      "purpose": "训练个人表达相关表达。",
+      "templates": [
+        {
+          "id": "tpl-per-001",
+          "text": "At the moment, I feel [state].",
+          "zh": "目前，我感到[状态]。",
+          "slots": [
+            "state"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-per-002",
+          "text": "I prefer [A] to [B] because [reason].",
+          "zh": "与[B]相比，我更喜欢[A]，因为[原因]。",
+          "slots": [
+            "A",
+            "B",
+            "reason"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-per-003",
+          "text": "I sometimes find it difficult to [difficulty].",
+          "zh": "我有时觉得[困难]很难。",
+          "slots": [
+            "difficulty"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-per-004",
+          "text": "I need to [need].",
+          "zh": "我需要[需要]。",
+          "slots": [
+            "need"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-per-005",
+          "text": "I am planning to [plan].",
+          "zh": "我打算[计划]。",
+          "slots": [
+            "plan"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "argument-evaluation",
+      "functionName": "观点论证",
+      "purpose": "训练观点论证相关表达。",
+      "templates": [
+        {
+          "id": "tpl-arg-001",
+          "text": "There is growing debate about [issue].",
+          "zh": "关于[问题]的讨论越来越多。",
+          "slots": [
+            "issue"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-arg-002",
+          "text": "In my view, [opinion].",
+          "zh": "在我看来，[观点]。",
+          "slots": [
+            "opinion"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-arg-003",
+          "text": "One major reason is that [reason].",
+          "zh": "一个主要原因是[原因]。",
+          "slots": [
+            "reason"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-arg-004",
+          "text": "Another point worth considering is that [reason].",
+          "zh": "另一个值得考虑的点是[原因]。",
+          "slots": [
+            "reason"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-arg-005",
+          "text": "For example, [example].",
+          "zh": "例如，[例子]。",
+          "slots": [
+            "example"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-arg-006",
+          "text": "Admittedly, [opposing view].",
+          "zh": "不可否认，[反方观点]。",
+          "slots": [
+            "opposing view"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-arg-007",
+          "text": "However, this argument overlooks the fact that [counterargument].",
+          "zh": "然而，这一论点忽视了[反驳点]。",
+          "slots": [
+            "counterargument"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-arg-008",
+          "text": "Overall, I would argue that [conclusion].",
+          "zh": "总体而言，我认为[结论]。",
+          "slots": [
+            "conclusion"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "problem-solution-decision",
+      "functionName": "问题解决",
+      "purpose": "训练问题解决相关表达。",
+      "templates": [
+        {
+          "id": "tpl-pro-001",
+          "text": "One serious problem is that [problem].",
+          "zh": "一个严重问题是[问题]。",
+          "slots": [
+            "problem"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-pro-002",
+          "text": "This is mainly caused by [cause].",
+          "zh": "这主要由[原因]造成。",
+          "slots": [
+            "cause"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-pro-003",
+          "text": "A deeper reason is that [cause].",
+          "zh": "一个更深层的原因是[原因]。",
+          "slots": [
+            "cause"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-pro-004",
+          "text": "As a result, [impact].",
+          "zh": "因此，[影响]。",
+          "slots": [
+            "impact"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-pro-005",
+          "text": "One possible solution is to [solution].",
+          "zh": "一个可能的解决方案是[方案]。",
+          "slots": [
+            "solution"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-pro-006",
+          "text": "This could be achieved by [method].",
+          "zh": "这可以通过[方法]实现。",
+          "slots": [
+            "method"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "prediction-hypothesis",
+      "functionName": "预测假设",
+      "purpose": "训练预测假设相关表达。",
+      "templates": [
+        {
+          "id": "tpl-pre-001",
+          "text": "In the future, [subject] is likely to [change].",
+          "zh": "未来，[主体]可能会[变化]。",
+          "slots": [
+            "subject",
+            "change"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-pre-002",
+          "text": "This may lead to [result].",
+          "zh": "这可能导致[结果]。",
+          "slots": [
+            "result"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-pre-003",
+          "text": "If [condition], [result].",
+          "zh": "如果[条件]，那么[结果]。",
+          "slots": [
+            "condition",
+            "result"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-pre-004",
+          "text": "If I had more time, I would [action].",
+          "zh": "如果我有更多时间，我会[行动]。",
+          "slots": [
+            "action"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "interaction-transaction",
+      "functionName": "事务沟通",
+      "purpose": "训练事务沟通相关表达。",
+      "templates": [
+        {
+          "id": "tpl-int-001",
+          "text": "Could you tell me [information]?",
+          "zh": "您能否告诉我[信息]？",
+          "slots": [
+            "information"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-int-002",
+          "text": "Could you confirm whether [information]?",
+          "zh": "您能否确认[信息]？",
+          "slots": [
+            "information"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-int-003",
+          "text": "Could you please [request]?",
+          "zh": "您能否[请求]？",
+          "slots": [
+            "request"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-int-004",
+          "text": "How about we [proposal]?",
+          "zh": "我们一起[建议]怎么样？",
+          "slots": [
+            "proposal"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-int-005",
+          "text": "I'm afraid [problem].",
+          "zh": "恐怕[问题]。",
+          "slots": [
+            "problem"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-int-006",
+          "text": "Would it be possible to [solution]?",
+          "zh": "是否可以[处理方式]？",
+          "slots": [
+            "solution"
+          ],
+          "level": "medium"
+        }
+      ]
+    },
+    {
+      "id": "discourse-repair",
+      "functionName": "组织修复",
+      "purpose": "训练组织修复相关表达。",
+      "templates": [
+        {
+          "id": "tpl-dis-001",
+          "text": "What I mean is that [clarification].",
+          "zh": "我的意思是[澄清]。",
+          "slots": [
+            "clarification"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-dis-002",
+          "text": "Sorry, could you explain what you mean by [term]?",
+          "zh": "抱歉，您能解释一下[术语]是什么意思吗？",
+          "slots": [
+            "term"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-dis-003",
+          "text": "That's an interesting question. I suppose [idea].",
+          "zh": "这是个有意思的问题。我想[想法]。",
+          "slots": [
+            "idea"
+          ],
+          "level": "medium"
+        },
+        {
+          "id": "tpl-dis-004",
+          "text": "So overall, I would say that [summary].",
+          "zh": "所以总体来说，我会说[总结]。",
+          "slots": [
+            "summary"
+          ],
+          "level": "medium"
+        }
+      ]
+    }
+  ]
+}

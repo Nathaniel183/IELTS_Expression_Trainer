@@ -1,0 +1,125 @@
+{
+  "version": "4.0",
+  "description": "以交际功能为核心的雅思口语与写作表达分类。",
+  "primaryFunctions": [
+    {
+      "id": "objective-description",
+      "name": "信息陈述与客观描述",
+      "shortName": "客观描述"
+    },
+    {
+      "id": "action-process-event",
+      "name": "行为、过程与事件表达",
+      "shortName": "行为过程"
+    },
+    {
+      "id": "narrative-experience",
+      "name": "叙事、经历与个人背景",
+      "shortName": "经历叙述"
+    },
+    {
+      "id": "concept-explanation",
+      "name": "知识说明与概念解释",
+      "shortName": "概念解释"
+    },
+    {
+      "id": "personal-state-plan",
+      "name": "个人状态、需求、偏好与计划",
+      "shortName": "个人表达"
+    },
+    {
+      "id": "argument-evaluation",
+      "name": "观点、评价与完整论证",
+      "shortName": "观点论证"
+    },
+    {
+      "id": "problem-solution-decision",
+      "name": "问题分析、解决方案与决策",
+      "shortName": "问题解决"
+    },
+    {
+      "id": "prediction-hypothesis",
+      "name": "预测、假设与可能性表达",
+      "shortName": "预测假设"
+    },
+    {
+      "id": "interaction-transaction",
+      "name": "人际互动与事务沟通",
+      "shortName": "事务沟通"
+    },
+    {
+      "id": "discourse-repair",
+      "name": "语篇组织、表达调整与交流修复",
+      "shortName": "组织修复"
+    }
+  ],
+  "secondaryTags": {
+    "logic": [
+      "时间顺序",
+      "并列补充",
+      "原因结果",
+      "手段目的",
+      "条件结果",
+      "比较对比",
+      "让步转折",
+      "举例概括",
+      "问题解决",
+      "观点证据",
+      "整体部分"
+    ],
+    "source": [
+      "客观事实",
+      "个人观察",
+      "个人经历",
+      "个人感受",
+      "个人观点",
+      "推测和假设"
+    ],
+    "scene": [
+      "日常生活",
+      "学习",
+      "学术讨论",
+      "工作",
+      "商务",
+      "旅行",
+      "公共服务",
+      "社交",
+      "网络交流"
+    ],
+    "register": [
+      "日常口语",
+      "礼貌口语",
+      "正式口语",
+      "一般书面语",
+      "正式写作",
+      "学术写作"
+    ],
+    "tone": [
+      "直接",
+      "委婉",
+      "中立",
+      "谨慎",
+      "强调",
+      "批判",
+      "支持",
+      "安慰",
+      "说服"
+    ],
+    "timeCertainty": [
+      "过去",
+      "现在",
+      "未来",
+      "一般规律",
+      "确定事实",
+      "可能情况",
+      "反事实假设"
+    ],
+    "length": [
+      "简单单句",
+      "复合句",
+      "复杂句",
+      "两句连续回答",
+      "三至五句微型语篇"
+    ]
+  }
+}

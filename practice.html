@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>练习 | IELTS Expression Trainer</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">IELTS</span>
+    <span><strong>Expression Trainer</strong><small>Practice</small></span>
+  </a>
+  <nav><a href="index.html">主页</a><a class="active" href="practice.html">练习</a><a href="knowledge.html">知识库</a></nav>
+</header>
+<main class="container practice-layout">
+  <aside class="panel controls">
+    <div class="aside-title"><h2>练习筛选</h2><button id="listToggle" class="btn small mobile-only">题目列表</button></div>
+    <label>主题</label><select id="themeFilter"></select>
+    <label>题型</label><select id="typeFilter"><option value="all">全部题型</option><option value="build">拼句 + 填空</option><option value="free">自由表达</option></select>
+    <label>表达类型</label><select id="functionFilter"></select>
+    <label>使用模式</label><select id="modeFilter"><option value="all">口语与写作</option><option value="speaking">口语</option><option value="writing">写作</option><option value="both">通用</option></select>
+    <div class="segmented"><button class="active" data-order="sequence">顺序</button><button data-order="random">随机</button></div>
+    <div class="progress-box"><div><span>筛选进度</span><strong id="progressText">0/0</strong></div><div class="progress-track"><i id="progressBar"></i></div></div>
+    <div class="nav-row"><button id="prevBtn" class="btn small">上一题</button><button id="nextBtn" class="btn small primary">下一题</button></div>
+    <button id="randomBtn" class="btn full">随机抽题</button>
+  </aside>
+
+  <section class="practice-main">
+    <div id="questionListPanel" class="panel question-list"></div>
+    <div id="questionRoot" class="panel question-root"></div>
+  </section>
+</main>
+<div id="toastRoot"></div>
+<script src="assets/js/fallback-data.js"></script>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/practice.js"></script>
+</body>
+</html>

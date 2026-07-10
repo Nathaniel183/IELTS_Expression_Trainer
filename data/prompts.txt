@@ -1,0 +1,33 @@
+{
+  "version": "4.0",
+  "prompts": [
+    {
+      "id": "generate-theme",
+      "title": "生成新主题",
+      "description": "生成 themes.txt 可用的主题数据。",
+      "buttonText": "复制主题提示词",
+      "text": "我正在维护本地项目 IELTS Expression Trainer。请为主题【填写主题】生成一个可加入 data/themes.txt 的 theme 对象，包含 id、name、icon、description、至少12个 coreVocab 和 commonClaims。词汇应适合雅思口语与写作，表达自然，避免生僻华丽。只输出合法 JSON。"
+    },
+    {
+      "id": "generate-questions",
+      "title": "生成新题目",
+      "description": "生成带拼句和填空强化的数据。",
+      "buttonText": "复制题目提示词",
+      "text": "请为 IELTS Expression Trainer 的主题【填写主题】生成 build 拼句题和 free 自由表达题。build 题必须使用中文题干；tokens 只能是单词或短语，长句必须拆分；tokens 的 kind 只能是 structure 或 concept；干扰项不能使用专属类别。每道 build 题还必须包含 cloze：parts 用 text/blank 片段重建答案，items 为每个空提供 answer、accepted、zh、kind、wordCount。只挖1-3个核心句型或主题词组，不要过度挖空。输出合法 JSON。"
+    },
+    {
+      "id": "modify-project",
+      "title": "修改整个项目",
+      "description": "上传项目压缩包后追加需求。",
+      "buttonText": "复制项目提示词",
+      "text": "我上传的是本地静态网页项目 IELTS Expression Trainer。请保持项目名称和纯前端结构不变。项目包含 index.html、practice.html、knowledge.html、assets、data、docs 和 tools。请保持电脑与手机适配，页面提示使用组件而不是弹窗，并保持拼句→核心填空的两阶段训练逻辑。我的需求是：【填写需求】。请返回完整可运行 zip。"
+    },
+    {
+      "id": "ai-review",
+      "title": "AI 评判模板",
+      "description": "自由表达题自动填入题目和回答。",
+      "buttonText": "复制评判模板",
+      "text": "你是一名雅思口语与写作表达教练。\n\n题目：\n{{question}}\n\n我的回答：\n{{answer}}\n\n请用中文评价：1. 是否回应题目；2. 表达是否自然；3. 语法与搭配问题；4. 逻辑是否完整；5. 给出改进版；6. 给出3条下次练习建议。"
+    }
+  ]
+}
