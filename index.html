@@ -1,8 +1,52 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>IELTS Expression Trainer</title><link rel="stylesheet" href="assets/css/style.css"/></head><body>
-<header class="topbar"><a class="brand" href="index.html"><span class="logo">IELTS</span><span><b>Expression Trainer</b><small>写作 · 口语 · 刻意练习</small></span></a><nav><a class="active" href="index.html">主页</a><a href="practice.html">练习</a><a href="knowledge.html">知识库</a></nav></header>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IELTS Expression Trainer</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+<header class="topbar">
+  <a class="brand" href="index.html"><span class="brand-mark">IELTS</span><span><strong>Expression Trainer</strong><small>口语 · 写作 · 表达训练</small></span></a>
+  <nav><a class="active" href="index.html">主页</a><a href="practice.html">练习</a><a href="knowledge.html">知识库</a></nav>
+</header>
 <main class="container">
-<section class="hero"><div><p class="eyebrow">Local-first · Editable data</p><h1>把“背过的表达”练成真正能用的表达。</h1><p class="lead">通过拼句、替换、自由表达和 AI 反馈提示词，把通用句型与主题词汇变成写作和口语中的自动反应。</p><p><a class="btn primary" href="practice.html">开始练习</a><a class="btn" href="knowledge.html">查看知识库</a></p></div><div class="panel"><div id="stats" class="stats"></div><div class="note"><b>今日建议</b><br/>5 道拼句题热身 + 1 道自由表达题 + 复制 AI 评判提示词获得反馈。</div></div></section>
-<section><div class="section-head"><div><p class="eyebrow">Themes</p><h2>选择主题</h2></div><a href="practice.html">全部题目 →</a></div><div id="themeCards" class="grid"></div></section>
-<section class="cols"><div class="panel"><p class="eyebrow">Deliberate Practice</p><h2>学习流程</h2><ol><li><b>识别：</b>用拼句题熟悉模板与主题词。</li><li><b>替换：</b>把同一句型换到不同主题。</li><li><b>输出：</b>自由表达题写句子、段落或口语回答。</li><li><b>反馈：</b>复制提示词，让 AI 评价并修改。</li><li><b>复练：</b>隔天重做，追求更快更自然。</li></ol></div><div class="panel"><p class="eyebrow">Data</p><h2>本地数据</h2><p>题库、主题词汇、模板都在 <code>data/*.txt</code> 中，本质是 JSON 文本。进度保存在浏览器 localStorage。</p><p><button id="exportProgress" class="btn small">导出进度</button><button id="resetProgress" class="btn small danger">清空进度</button></p><div class="note">如果你修改 data 文件，建议用 <code>python start_server.py</code> 运行。</div></div></section>
-<section><div class="section-head"><div><p class="eyebrow">Prompt Tools</p><h2>提示词复制工具</h2></div></div><div id="promptCards" class="grid two"></div></section>
-</main><div id="toastRoot"></div><script src="assets/js/fallback-data.js"></script><script src="assets/js/common.js"></script><script src="assets/js/home.js"></script></body></html>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">FUNCTION-FIRST PRACTICE</p>
+      <h1>把英语表达练成可以直接调用的语块。</h1>
+      <p class="lead">中文题干、短语拼接、主题迁移、自由输出。</p>
+      <div class="actions"><a class="btn primary" href="practice.html">开始练习</a><a class="btn" href="knowledge.html">查看知识库</a></div>
+    </div>
+    <div class="panel hero-panel"><div id="stats" class="stats"></div><div class="progress-wrap"><div class="progress-line"><span>总完成度</span><strong id="overallProgressText">0%</strong></div><div class="progress-track"><i id="overallProgressBar"></i></div></div></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><p class="eyebrow">THEMES</p><h2>主题</h2></div><a class="text-link" href="practice.html">全部练习 →</a></div>
+    <div id="themeCards" class="card-grid"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div><p class="eyebrow">FUNCTIONS</p><h2>表达类型</h2></div></div>
+    <div id="functionCards" class="function-grid"></div>
+  </section>
+
+  <section class="section two-col">
+    <div class="panel">
+      <p class="eyebrow">PROGRESS</p><h2>本机记录</h2>
+      <div class="actions compact"><button id="exportProgress" class="btn small">导出进度</button><button id="resetProgress" class="btn small danger">清空进度</button></div>
+      <p class="muted small-text">记录保存在当前浏览器。</p>
+    </div>
+    <div class="panel">
+      <p class="eyebrow">PROMPTS</p><h2>AI 提示词</h2>
+      <div id="promptCards" class="prompt-list"></div>
+    </div>
+  </section>
+</main>
+<div id="toastRoot" class="toast-root"></div>
+<script src="assets/js/fallback-data.js"></script>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+</html>

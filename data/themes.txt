@@ -1,2662 +1,1614 @@
 {
-  "version": "2.0",
-  "description": "扩充后的雅思常见主题库。每个主题都包含核心词汇、常用观点与练习生成所需的语义字段。",
+  "version": "3.0",
+  "description": "12 个互补的大主题，覆盖雅思口语、写作与日常交际中的常见内容。",
   "themes": [
     {
       "id": "education",
-      "name": "教育",
+      "name": "教育与学习",
       "icon": "🎓",
-      "description": "学校教育、在线学习、考试压力、技能培养、教育公平与终身学习。",
+      "description": "学校、在线学习、考试、技能培养、教育公平和学习习惯。",
       "coreVocab": [
         {
           "id": "education-v001",
           "en": "academic performance",
-          "zh": "",
+          "zh": "学业表现",
           "type": "core"
         },
         {
           "id": "education-v002",
           "en": "critical thinking",
-          "zh": "",
+          "zh": "批判性思维",
           "type": "core"
         },
         {
           "id": "education-v003",
           "en": "practical skills",
-          "zh": "",
+          "zh": "实践技能",
           "type": "core"
         },
         {
           "id": "education-v004",
-          "en": "lifelong learning",
-          "zh": "",
+          "en": "online learning",
+          "zh": "在线学习",
           "type": "core"
         },
         {
           "id": "education-v005",
           "en": "educational resources",
-          "zh": "",
+          "zh": "教育资源",
           "type": "core"
         },
         {
           "id": "education-v006",
-          "en": "equal access to education",
-          "zh": "",
+          "en": "learning efficiency",
+          "zh": "学习效率",
           "type": "core"
         },
         {
           "id": "education-v007",
-          "en": "exam-oriented education",
-          "zh": "",
+          "en": "student motivation",
+          "zh": "学生动力",
           "type": "core"
         },
         {
           "id": "education-v008",
-          "en": "creativity and independence",
-          "zh": "",
+          "en": "face-to-face communication",
+          "zh": "面对面交流",
           "type": "core"
         },
         {
           "id": "education-v009",
-          "en": "student motivation",
-          "zh": "",
+          "en": "school curriculum",
+          "zh": "学校课程",
           "type": "core"
         },
         {
           "id": "education-v010",
-          "en": "learning efficiency",
-          "zh": "",
+          "en": "vocational training",
+          "zh": "职业培训",
           "type": "core"
         },
         {
           "id": "education-v011",
-          "en": "higher education",
-          "zh": "",
+          "en": "self-discipline",
+          "zh": "自律",
           "type": "core"
         },
         {
           "id": "education-v012",
-          "en": "vocational training",
-          "zh": "",
+          "en": "equal access to education",
+          "zh": "平等获得教育的机会",
           "type": "core"
         },
         {
           "id": "education-v013",
-          "en": "online learning",
-          "zh": "",
+          "en": "group discussion",
+          "zh": "小组讨论",
           "type": "core"
         },
         {
           "id": "education-v014",
-          "en": "face-to-face communication",
-          "zh": "",
+          "en": "assignment deadline",
+          "zh": "作业截止时间",
           "type": "core"
         },
         {
           "id": "education-v015",
-          "en": "school curriculum",
-          "zh": "",
+          "en": "recorded lessons",
+          "zh": "录播课程",
           "type": "core"
         },
         {
           "id": "education-v016",
-          "en": "teacher training",
-          "zh": "",
+          "en": "teacher feedback",
+          "zh": "教师反馈",
           "type": "core"
         },
         {
           "id": "education-v017",
-          "en": "digital learning platforms",
-          "zh": "",
+          "en": "digital learning platform",
+          "zh": "数字学习平台",
           "type": "core"
         },
         {
           "id": "education-v018",
-          "en": "self-discipline",
-          "zh": "",
+          "en": "exam pressure",
+          "zh": "考试压力",
           "type": "core"
         },
         {
           "id": "education-v019",
-          "en": "classroom interaction",
-          "zh": "",
+          "en": "independent learning",
+          "zh": "自主学习",
           "type": "core"
         },
         {
           "id": "education-v020",
-          "en": "educational fairness",
-          "zh": "",
+          "en": "classroom interaction",
+          "zh": "课堂互动",
           "type": "core"
         }
       ],
       "commonClaims": [
         "Education should balance academic knowledge with practical skills.",
-        "Combine classroom teaching with high-quality online resources can help improve students' creativity and practical skills.",
-        "One major reason is that it helps students develop skills that are useful in real life.",
-        "Although online learning may reduce face-to-face communication, teachers can use group discussions and regular feedback to maintain interaction."
-      ],
-      "practiceSemantics": {
-        "field": "education and digital technology",
-        "topic": "online and school education",
-        "statement": "schools should place greater emphasis on practical skills",
-        "viewA": "students should focus mainly on academic subjects",
-        "viewB": "schools should also develop creativity and practical skills",
-        "opinion": "education should balance academic knowledge with practical skills",
-        "position": "online learning should be used as a useful supplement to traditional teaching",
-        "reason": "it helps students develop skills that are useful in real life",
-        "factor": "access to high-quality educational resources",
-        "benefit": "students can learn more flexibly and independently",
-        "effect": "improve learning efficiency and educational fairness",
-        "opposing": "online learning may reduce face-to-face communication",
-        "counter": "teachers can use group discussions and regular feedback to maintain interaction",
-        "explanation": "students learn better when they can study at their own pace",
-        "factorA": "exam pressure",
-        "factorB": "unequal access to educational resources",
-        "example": "many students use online platforms to review recorded lessons after class",
-        "result": "students can become more independent learners",
-        "negative": "students may lose motivation without clear guidance",
-        "positive": "greater educational fairness",
-        "A": "traditional classroom teaching",
-        "B": "online learning",
-        "verb": "offer more flexible access to resources",
-        "alternative": "simply increasing homework",
-        "solution": "combine classroom teaching with high-quality online resources",
-        "goal": "improve students' creativity and practical skills",
-        "area": "teacher training and digital learning resources",
-        "group": "schools and families",
-        "action": "guide students to use technology effectively",
-        "summary": "education should prepare students for both exams and real-life challenges"
-      }
+        "One major reason is that practical skills help students deal with real-life problems.",
+        "Admittedly, practical projects can take time away from exam preparation.",
+        "One practical solution is to provide devices and internet support to disadvantaged students."
+      ]
     },
     {
-      "id": "technology",
-      "name": "科技与人工智能",
+      "id": "technology-media",
+      "name": "科技、媒体与人工智能",
       "icon": "🤖",
-      "description": "人工智能、自动化、数字设备、数据隐私、信息过载与数字素养。",
+      "description": "人工智能、数字设备、社交媒体、数据隐私、信息可信度和数字素养。",
       "coreVocab": [
         {
-          "id": "technology-v001",
-          "en": "technological development",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "technology-v002",
+          "id": "technology-media-v001",
           "en": "artificial intelligence",
-          "zh": "",
+          "zh": "人工智能",
           "type": "core"
         },
         {
-          "id": "technology-v003",
-          "en": "digital devices",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "technology-v004",
-          "en": "online communication",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "technology-v005",
-          "en": "data privacy",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "technology-v006",
-          "en": "automation",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "technology-v007",
-          "en": "working efficiency",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "technology-v008",
-          "en": "social interaction",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "technology-v009",
-          "en": "information overload",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "technology-v010",
+          "id": "technology-media-v002",
           "en": "digital literacy",
-          "zh": "",
+          "zh": "数字素养",
           "type": "core"
         },
         {
-          "id": "technology-v011",
-          "en": "online platforms",
-          "zh": "",
+          "id": "technology-media-v003",
+          "en": "data privacy",
+          "zh": "数据隐私",
           "type": "core"
         },
         {
-          "id": "technology-v012",
-          "en": "remote work",
-          "zh": "",
+          "id": "technology-media-v004",
+          "en": "automation",
+          "zh": "自动化",
           "type": "core"
         },
         {
-          "id": "technology-v013",
-          "en": "cybersecurity",
-          "zh": "",
+          "id": "technology-media-v005",
+          "en": "social media",
+          "zh": "社交媒体",
           "type": "core"
         },
         {
-          "id": "technology-v014",
-          "en": "job security",
-          "zh": "",
+          "id": "technology-media-v006",
+          "en": "misinformation",
+          "zh": "错误信息",
           "type": "core"
         },
         {
-          "id": "technology-v015",
-          "en": "human creativity",
-          "zh": "",
+          "id": "technology-media-v007",
+          "en": "online communication",
+          "zh": "线上交流",
           "type": "core"
         },
         {
-          "id": "technology-v016",
+          "id": "technology-media-v008",
           "en": "algorithmic bias",
-          "zh": "",
+          "zh": "算法偏见",
           "type": "core"
         },
         {
-          "id": "technology-v017",
-          "en": "responsible innovation",
-          "zh": "",
+          "id": "technology-media-v009",
+          "en": "cybersecurity",
+          "zh": "网络安全",
           "type": "core"
         },
         {
-          "id": "technology-v018",
+          "id": "technology-media-v010",
           "en": "screen time",
-          "zh": "",
+          "zh": "屏幕使用时间",
           "type": "core"
         },
         {
-          "id": "technology-v019",
+          "id": "technology-media-v011",
+          "en": "working efficiency",
+          "zh": "工作效率",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v012",
+          "en": "job security",
+          "zh": "就业稳定性",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v013",
           "en": "digital divide",
-          "zh": "",
+          "zh": "数字鸿沟",
           "type": "core"
         },
         {
-          "id": "technology-v020",
+          "id": "technology-media-v014",
           "en": "user protection",
-          "zh": "",
+          "zh": "用户保护",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v015",
+          "en": "targeted advertising",
+          "zh": "定向广告",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v016",
+          "en": "content moderation",
+          "zh": "内容审核",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v017",
+          "en": "online platform",
+          "zh": "网络平台",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v018",
+          "en": "personal data",
+          "zh": "个人数据",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v019",
+          "en": "human creativity",
+          "zh": "人类创造力",
+          "type": "core"
+        },
+        {
+          "id": "technology-media-v020",
+          "en": "responsible innovation",
+          "zh": "负责任的创新",
           "type": "core"
         }
       ],
       "commonClaims": [
-        "Technology should be used carefully rather than rejected completely.",
-        "Strengthen data protection and improve digital literacy can help protect users' privacy and reduce technology-related risks.",
-        "One major reason is that it can improve working efficiency and access to information.",
-        "Although automation may threaten job security, new technology can also create new jobs and industries."
-      ],
-      "practiceSemantics": {
-        "field": "digital technology",
-        "topic": "artificial intelligence and digital devices",
-        "statement": "artificial intelligence will bring more benefits than problems",
-        "viewA": "new technology improves efficiency and convenience",
-        "viewB": "it may create risks related to privacy and employment",
-        "opinion": "technology should be used carefully rather than rejected completely",
-        "position": "artificial intelligence can be beneficial if it is properly regulated",
-        "reason": "it can improve working efficiency and access to information",
-        "factor": "digital literacy",
-        "benefit": "people can complete many tasks more efficiently",
-        "effect": "increase productivity and create new forms of learning",
-        "opposing": "automation may threaten job security",
-        "counter": "new technology can also create new jobs and industries",
-        "explanation": "digital tools allow information to be processed and shared quickly",
-        "factorA": "weak data protection",
-        "factorB": "low public awareness of privacy",
-        "example": "AI tools can help doctors analyse medical images more quickly",
-        "result": "people can save time and make better decisions",
-        "negative": "data privacy problems and information overload",
-        "positive": "higher productivity and better access to services",
-        "A": "manual work",
-        "B": "automation",
-        "verb": "increase efficiency and reduce repetitive tasks",
-        "alternative": "banning new technology",
-        "solution": "strengthen data protection and improve digital literacy",
-        "goal": "protect users' privacy and reduce technology-related risks",
-        "area": "digital education and cybersecurity",
-        "group": "governments and technology companies",
-        "action": "set clear rules for the responsible use of AI",
-        "summary": "technology should be developed in a responsible and human-centred way"
-      }
-    },
-    {
-      "id": "environment",
-      "name": "环境与气候",
-      "icon": "🌱",
-      "description": "气候变化、污染、能源转型、公共交通、环保意识与可持续发展。",
-      "coreVocab": [
-        {
-          "id": "environment-v001",
-          "en": "environmental protection",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v002",
-          "en": "air pollution",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v003",
-          "en": "climate change",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v004",
-          "en": "renewable energy",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v005",
-          "en": "natural resources",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v006",
-          "en": "carbon emissions",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v007",
-          "en": "sustainable development",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v008",
-          "en": "public awareness",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v009",
-          "en": "waste management",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v010",
-          "en": "energy consumption",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v011",
-          "en": "public transport",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v012",
-          "en": "traffic congestion",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v013",
-          "en": "green technology",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v014",
-          "en": "environmental responsibility",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v015",
-          "en": "industrial pollution",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v016",
-          "en": "fossil fuels",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v017",
-          "en": "recycling systems",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v018",
-          "en": "biodiversity",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v019",
-          "en": "eco-friendly products",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "environment-v020",
-          "en": "urban green spaces",
-          "zh": "",
-          "type": "core"
-        }
-      ],
-      "commonClaims": [
-        "Governments should invest more in green technology and public transport.",
-        "Invest in renewable energy and efficient public transport can help reduce carbon emissions and industrial pollution.",
-        "One major reason is that pollution and climate change can damage public health and future development.",
-        "Although strict environmental rules may increase costs for businesses, green innovation can create new industries and jobs."
-      ],
-      "practiceSemantics": {
-        "field": "environmental policy",
-        "topic": "environmental protection",
-        "statement": "governments should give higher priority to environmental protection",
-        "viewA": "economic growth should come first",
-        "viewB": "environmental protection should be treated as a long-term priority",
-        "opinion": "governments should invest more in green technology and public transport",
-        "position": "environmental protection should not be sacrificed for short-term economic growth",
-        "reason": "pollution and climate change can damage public health and future development",
-        "factor": "public awareness of environmental responsibility",
-        "benefit": "it can reduce pollution and protect natural resources",
-        "effect": "promote sustainable development",
-        "opposing": "strict environmental rules may increase costs for businesses",
-        "counter": "green innovation can create new industries and jobs",
-        "explanation": "private cars and fossil fuels produce large amounts of carbon emissions",
-        "factorA": "rapid urban development",
-        "factorB": "high energy consumption",
-        "example": "many cities reduce congestion by improving metro and bus systems",
-        "result": "air quality and quality of life can be improved",
-        "negative": "more extreme weather and health problems",
-        "positive": "cleaner cities and more sustainable growth",
-        "A": "building more roads",
-        "B": "improving public transport",
-        "verb": "reduce the number of private cars on the road",
-        "alternative": "depending only on individual voluntary action",
-        "solution": "invest in renewable energy and efficient public transport",
-        "goal": "reduce carbon emissions and industrial pollution",
-        "area": "renewable energy and waste management",
-        "group": "individuals and governments",
-        "action": "adopt more environmentally friendly habits",
-        "summary": "sustainable development requires both government regulation and individual responsibility"
-      }
+        "Ai should be used with clear rules and human oversight.",
+        "One major reason is that automated tools can reduce repetitive work.",
+        "Admittedly, automation may replace some routine jobs.",
+        "One practical solution is to use clearer privacy notices and simple control settings."
+      ]
     },
     {
       "id": "health",
       "name": "健康与生活方式",
       "icon": "🏃",
-      "description": "身体健康、心理健康、公共卫生、医疗服务、运动饮食与压力管理。",
+      "description": "身体健康、心理健康、饮食、运动、睡眠、医疗服务和压力管理。",
       "coreVocab": [
         {
           "id": "health-v001",
           "en": "physical health",
-          "zh": "",
+          "zh": "身体健康",
           "type": "core"
         },
         {
           "id": "health-v002",
           "en": "mental health",
-          "zh": "",
+          "zh": "心理健康",
           "type": "core"
         },
         {
           "id": "health-v003",
-          "en": "public health",
-          "zh": "",
+          "en": "balanced diet",
+          "zh": "均衡饮食",
           "type": "core"
         },
         {
           "id": "health-v004",
-          "en": "healthy lifestyle",
-          "zh": "",
+          "en": "regular exercise",
+          "zh": "规律运动",
           "type": "core"
         },
         {
           "id": "health-v005",
-          "en": "medical services",
-          "zh": "",
+          "en": "sleep quality",
+          "zh": "睡眠质量",
           "type": "core"
         },
         {
           "id": "health-v006",
-          "en": "healthcare system",
-          "zh": "",
+          "en": "stress management",
+          "zh": "压力管理",
           "type": "core"
         },
         {
           "id": "health-v007",
-          "en": "stress and anxiety",
-          "zh": "",
+          "en": "preventive healthcare",
+          "zh": "预防性医疗",
           "type": "core"
         },
         {
           "id": "health-v008",
-          "en": "regular exercise",
-          "zh": "",
+          "en": "medical services",
+          "zh": "医疗服务",
           "type": "core"
         },
         {
           "id": "health-v009",
-          "en": "balanced diet",
-          "zh": "",
+          "en": "public health",
+          "zh": "公共健康",
           "type": "core"
         },
         {
           "id": "health-v010",
-          "en": "life expectancy",
-          "zh": "",
+          "en": "health awareness",
+          "zh": "健康意识",
           "type": "core"
         },
         {
           "id": "health-v011",
-          "en": "health awareness",
-          "zh": "",
+          "en": "sedentary lifestyle",
+          "zh": "久坐生活方式",
           "type": "core"
         },
         {
           "id": "health-v012",
-          "en": "medical resources",
-          "zh": "",
+          "en": "emotional well-being",
+          "zh": "情绪健康",
           "type": "core"
         },
         {
           "id": "health-v013",
-          "en": "preventive measures",
-          "zh": "",
+          "en": "healthcare system",
+          "zh": "医疗体系",
           "type": "core"
         },
         {
           "id": "health-v014",
-          "en": "health education",
-          "zh": "",
+          "en": "community sports facilities",
+          "zh": "社区体育设施",
           "type": "core"
         },
         {
           "id": "health-v015",
-          "en": "emotional well-being",
-          "zh": "",
+          "en": "healthy habits",
+          "zh": "健康习惯",
           "type": "core"
         },
         {
           "id": "health-v016",
-          "en": "sleep quality",
-          "zh": "",
+          "en": "medical costs",
+          "zh": "医疗费用",
           "type": "core"
         },
         {
           "id": "health-v017",
           "en": "workplace stress",
-          "zh": "",
+          "zh": "职场压力",
           "type": "core"
         },
         {
           "id": "health-v018",
-          "en": "community sports facilities",
-          "zh": "",
+          "en": "screen time",
+          "zh": "屏幕时间",
           "type": "core"
         },
         {
           "id": "health-v019",
-          "en": "obesity",
-          "zh": "",
+          "en": "daily routine",
+          "zh": "日常作息",
           "type": "core"
         },
         {
           "id": "health-v020",
-          "en": "preventable diseases",
-          "zh": "",
+          "en": "professional advice",
+          "zh": "专业建议",
           "type": "core"
         }
       ],
       "commonClaims": [
-        "Both individuals and public institutions should support healthier lifestyles.",
-        "Provide health education and accessible sports facilities can help encourage regular exercise and a balanced diet.",
-        "One major reason is that healthy habits can reduce pressure on the healthcare system.",
-        "Although people should be free to choose their own lifestyle, public education does not remove freedom; it helps people make better choices."
+        "Healthy choices are easier when communities provide suitable facilities and information.",
+        "One major reason is that preventive measures can reduce long-term medical costs.",
+        "Admittedly, people should be free to choose their own lifestyle.",
+        "One practical solution is to create safe walking routes and affordable sports facilities."
+      ]
+    },
+    {
+      "id": "environment-city",
+      "name": "环境、城市与交通",
+      "icon": "🌱",
+      "description": "气候变化、污染、能源、城市规划、住房、交通和可持续生活。",
+      "coreVocab": [
+        {
+          "id": "environment-city-v001",
+          "en": "climate change",
+          "zh": "气候变化",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v002",
+          "en": "air pollution",
+          "zh": "空气污染",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v003",
+          "en": "renewable energy",
+          "zh": "可再生能源",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v004",
+          "en": "carbon emissions",
+          "zh": "碳排放",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v005",
+          "en": "public transport",
+          "zh": "公共交通",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v006",
+          "en": "traffic congestion",
+          "zh": "交通拥堵",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v007",
+          "en": "urban planning",
+          "zh": "城市规划",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v008",
+          "en": "affordable housing",
+          "zh": "可负担住房",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v009",
+          "en": "green spaces",
+          "zh": "绿地",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v010",
+          "en": "waste management",
+          "zh": "废物管理",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v011",
+          "en": "energy consumption",
+          "zh": "能源消耗",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v012",
+          "en": "sustainable development",
+          "zh": "可持续发展",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v013",
+          "en": "bike lanes",
+          "zh": "自行车道",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v014",
+          "en": "urban sprawl",
+          "zh": "城市蔓延",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v015",
+          "en": "recycling system",
+          "zh": "回收系统",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v016",
+          "en": "natural resources",
+          "zh": "自然资源",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v017",
+          "en": "public awareness",
+          "zh": "公众意识",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v018",
+          "en": "commuting time",
+          "zh": "通勤时间",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v019",
+          "en": "population density",
+          "zh": "人口密度",
+          "type": "core"
+        },
+        {
+          "id": "environment-city-v020",
+          "en": "environmental responsibility",
+          "zh": "环境责任",
+          "type": "core"
+        }
       ],
-      "practiceSemantics": {
-        "field": "public health",
-        "topic": "healthy lifestyles",
-        "statement": "governments should do more to promote healthy lifestyles",
-        "viewA": "health is mainly an individual responsibility",
-        "viewB": "governments and schools should provide more health education",
-        "opinion": "both individuals and public institutions should support healthier lifestyles",
-        "position": "preventive healthcare should receive more attention",
-        "reason": "healthy habits can reduce pressure on the healthcare system",
-        "factor": "public health education",
-        "benefit": "people can reduce the risk of many preventable diseases",
-        "effect": "improve physical and mental well-being",
-        "opposing": "people should be free to choose their own lifestyle",
-        "counter": "public education does not remove freedom; it helps people make better choices",
-        "explanation": "many health problems are linked to poor diet, lack of exercise and stress",
-        "factorA": "workplace pressure",
-        "factorB": "low health awareness",
-        "example": "schools can teach students the importance of regular exercise and a balanced diet",
-        "result": "people may live longer and healthier lives",
-        "negative": "higher medical costs and lower quality of life",
-        "positive": "better public health and higher life expectancy",
-        "A": "treating diseases after they occur",
-        "B": "preventive healthcare",
-        "verb": "reduce long-term medical costs",
-        "alternative": "relying only on hospitals",
-        "solution": "provide health education and accessible sports facilities",
-        "goal": "encourage regular exercise and a balanced diet",
-        "area": "mental health services and community sports facilities",
-        "group": "schools, employers and local communities",
-        "action": "create healthier environments",
-        "summary": "healthy lifestyles require both personal effort and supportive public policies"
-      }
+      "commonClaims": [
+        "Cities should invest more in reliable public transport.",
+        "One major reason is that better transport can reduce congestion and air pollution.",
+        "Admittedly, restricting cars may inconvenience some residents and businesses.",
+        "One practical solution is to build more affordable homes near public transport."
+      ]
     },
     {
       "id": "work-economy",
-      "name": "工作与经济",
+      "name": "工作、职业与经济",
       "icon": "💼",
-      "description": "就业、职业发展、远程办公、工作压力、收入差距、经济增长与工作生活平衡。",
+      "description": "就业、职业发展、工作压力、远程办公、收入、企业和经济变化。",
       "coreVocab": [
         {
           "id": "work-economy-v001",
-          "en": "job opportunities",
-          "zh": "",
+          "en": "career development",
+          "zh": "职业发展",
           "type": "core"
         },
         {
           "id": "work-economy-v002",
-          "en": "career development",
-          "zh": "",
+          "en": "job opportunities",
+          "zh": "工作机会",
           "type": "core"
         },
         {
           "id": "work-economy-v003",
           "en": "work-life balance",
-          "zh": "",
+          "zh": "工作生活平衡",
           "type": "core"
         },
         {
           "id": "work-economy-v004",
-          "en": "economic growth",
-          "zh": "",
+          "en": "workplace pressure",
+          "zh": "职场压力",
           "type": "core"
         },
         {
           "id": "work-economy-v005",
-          "en": "income inequality",
-          "zh": "",
+          "en": "job satisfaction",
+          "zh": "工作满意度",
           "type": "core"
         },
         {
           "id": "work-economy-v006",
           "en": "professional skills",
-          "zh": "",
+          "zh": "专业技能",
           "type": "core"
         },
         {
           "id": "work-economy-v007",
-          "en": "workplace pressure",
-          "zh": "",
+          "en": "labour market",
+          "zh": "劳动力市场",
           "type": "core"
         },
         {
           "id": "work-economy-v008",
-          "en": "job satisfaction",
-          "zh": "",
+          "en": "remote work",
+          "zh": "远程办公",
           "type": "core"
         },
         {
           "id": "work-economy-v009",
-          "en": "labour market",
-          "zh": "",
+          "en": "flexible working hours",
+          "zh": "弹性工作时间",
           "type": "core"
         },
         {
           "id": "work-economy-v010",
-          "en": "financial burden",
-          "zh": "",
+          "en": "productivity",
+          "zh": "生产力",
           "type": "core"
         },
         {
           "id": "work-economy-v011",
-          "en": "employment prospects",
-          "zh": "",
+          "en": "income inequality",
+          "zh": "收入不平等",
           "type": "core"
         },
         {
           "id": "work-economy-v012",
-          "en": "working environment",
-          "zh": "",
+          "en": "economic growth",
+          "zh": "经济增长",
           "type": "core"
         },
         {
           "id": "work-economy-v013",
-          "en": "flexible working hours",
-          "zh": "",
+          "en": "employee training",
+          "zh": "员工培训",
           "type": "core"
         },
         {
           "id": "work-economy-v014",
-          "en": "career choice",
-          "zh": "",
+          "en": "job security",
+          "zh": "就业稳定性",
           "type": "core"
         },
         {
           "id": "work-economy-v015",
-          "en": "economic stability",
-          "zh": "",
+          "en": "working environment",
+          "zh": "工作环境",
           "type": "core"
         },
         {
           "id": "work-economy-v016",
-          "en": "remote work",
-          "zh": "",
+          "en": "automation",
+          "zh": "自动化",
           "type": "core"
         },
         {
           "id": "work-economy-v017",
-          "en": "burnout",
-          "zh": "",
+          "en": "living costs",
+          "zh": "生活成本",
           "type": "core"
         },
         {
           "id": "work-economy-v018",
-          "en": "employee training",
-          "zh": "",
+          "en": "small businesses",
+          "zh": "小企业",
           "type": "core"
         },
         {
           "id": "work-economy-v019",
-          "en": "productivity",
-          "zh": "",
+          "en": "teamwork",
+          "zh": "团队合作",
           "type": "core"
         },
         {
           "id": "work-economy-v020",
-          "en": "workplace culture",
-          "zh": "",
+          "en": "career choice",
+          "zh": "职业选择",
           "type": "core"
         }
       ],
       "commonClaims": [
-        "Companies should pay more attention to work-life balance.",
-        "Provide flexible working hours and mental health support can help reduce workplace pressure and improve job satisfaction.",
-        "One major reason is that it can improve both productivity and mental health.",
-        "Although remote work may reduce teamwork and creativity, regular meetings and clear communication can reduce this problem."
-      ],
-      "practiceSemantics": {
-        "field": "the modern labour market",
-        "topic": "work-life balance and career development",
-        "statement": "flexible working arrangements should become more common",
-        "viewA": "employees should spend more time in the office",
-        "viewB": "flexible work can improve productivity and job satisfaction",
-        "opinion": "companies should pay more attention to work-life balance",
-        "position": "flexible work is beneficial when clear goals and communication are maintained",
-        "reason": "it can improve both productivity and mental health",
-        "factor": "workplace pressure",
-        "benefit": "employees can manage their time more effectively",
-        "effect": "increase job satisfaction and reduce burnout",
-        "opposing": "remote work may reduce teamwork and creativity",
-        "counter": "regular meetings and clear communication can reduce this problem",
-        "explanation": "long working hours often lead to stress and lower efficiency",
-        "factorA": "intense competition",
-        "factorB": "high living costs",
-        "example": "some companies allow employees to work from home several days a week",
-        "result": "workers may feel more motivated and loyal to their companies",
-        "negative": "lower job satisfaction and higher stress levels",
-        "positive": "better mental health and productivity",
-        "A": "traditional office work",
-        "B": "flexible working arrangements",
-        "verb": "improve work-life balance",
-        "alternative": "requiring everyone to work longer hours",
-        "solution": "provide flexible working hours and mental health support",
-        "goal": "reduce workplace pressure and improve job satisfaction",
-        "area": "employee training and career development",
-        "group": "companies and employees",
-        "action": "create a healthier working culture",
-        "summary": "economic success should be balanced with employees' well-being"
-      }
+        "Companies should judge performance by results rather than time spent at a desk.",
+        "One major reason is that flexibility helps employees manage work and family responsibilities.",
+        "Admittedly, remote work can reduce informal communication and teamwork.",
+        "One practical solution is to expand internships, mentoring and practical training."
+      ]
     },
     {
-      "id": "society",
+      "id": "family-relationships",
+      "name": "家庭、人际关系与儿童",
+      "icon": "👨‍👩‍👧",
+      "description": "家庭教育、亲子关系、友谊、沟通、儿童发展、冲突和支持。",
+      "coreVocab": [
+        {
+          "id": "family-relationships-v001",
+          "en": "parental guidance",
+          "zh": "家长指导",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v002",
+          "en": "child development",
+          "zh": "儿童发展",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v003",
+          "en": "family environment",
+          "zh": "家庭环境",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v004",
+          "en": "emotional support",
+          "zh": "情感支持",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v005",
+          "en": "parent-child communication",
+          "zh": "亲子沟通",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v006",
+          "en": "independence",
+          "zh": "独立性",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v007",
+          "en": "responsibility",
+          "zh": "责任感",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v008",
+          "en": "peer pressure",
+          "zh": "同伴压力",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v009",
+          "en": "screen time",
+          "zh": "屏幕时间",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v010",
+          "en": "online safety",
+          "zh": "网络安全",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v011",
+          "en": "family relationships",
+          "zh": "家庭关系",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v012",
+          "en": "social skills",
+          "zh": "社交技能",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v013",
+          "en": "role model",
+          "zh": "榜样",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v014",
+          "en": "mutual respect",
+          "zh": "相互尊重",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v015",
+          "en": "conflict resolution",
+          "zh": "冲突解决",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v016",
+          "en": "quality time",
+          "zh": "高质量相处时间",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v017",
+          "en": "household responsibilities",
+          "zh": "家务责任",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v018",
+          "en": "personal boundaries",
+          "zh": "个人边界",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v019",
+          "en": "trust",
+          "zh": "信任",
+          "type": "core"
+        },
+        {
+          "id": "family-relationships-v020",
+          "en": "communication habits",
+          "zh": "沟通习惯",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "Parents should set reasonable limits while allowing children to make age-appropriate choices.",
+        "One major reason is that children need guidance because they cannot always judge long-term risks.",
+        "Admittedly, too many rules can create resentment and secrecy.",
+        "One practical solution is to set aside regular time for conversation and shared activities."
+      ]
+    },
+    {
+      "id": "travel-culture",
+      "name": "旅行、文化与艺术",
+      "icon": "✈️",
+      "description": "旅行安排、旅游体验、文化差异、文化遗产、艺术、博物馆和当地社区。",
+      "coreVocab": [
+        {
+          "id": "travel-culture-v001",
+          "en": "cultural heritage",
+          "zh": "文化遗产",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v002",
+          "en": "sustainable tourism",
+          "zh": "可持续旅游",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v003",
+          "en": "local communities",
+          "zh": "当地社区",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v004",
+          "en": "cultural exchange",
+          "zh": "文化交流",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v005",
+          "en": "historical sites",
+          "zh": "历史遗址",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v006",
+          "en": "travel experience",
+          "zh": "旅行经历",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v007",
+          "en": "public transport",
+          "zh": "公共交通",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v008",
+          "en": "local customs",
+          "zh": "当地习俗",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v009",
+          "en": "tourist attractions",
+          "zh": "旅游景点",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v010",
+          "en": "overcrowding",
+          "zh": "过度拥挤",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v011",
+          "en": "environmental impact",
+          "zh": "环境影响",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v012",
+          "en": "local businesses",
+          "zh": "当地企业",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v013",
+          "en": "arts education",
+          "zh": "艺术教育",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v014",
+          "en": "museums",
+          "zh": "博物馆",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v015",
+          "en": "cultural identity",
+          "zh": "文化认同",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v016",
+          "en": "traditional culture",
+          "zh": "传统文化",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v017",
+          "en": "travel itinerary",
+          "zh": "旅行行程",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v018",
+          "en": "accommodation",
+          "zh": "住宿",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v019",
+          "en": "responsible travel",
+          "zh": "负责任旅行",
+          "type": "core"
+        },
+        {
+          "id": "travel-culture-v020",
+          "en": "language barrier",
+          "zh": "语言障碍",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "Tourism should be managed to benefit local residents as well as visitors.",
+        "One major reason is that tourism income can support jobs, transport and cultural preservation.",
+        "Admittedly, strict visitor limits may reduce income for local businesses.",
+        "One practical solution is to spread visitors across seasons and less crowded areas."
+      ]
+    },
+    {
+      "id": "society-public",
       "name": "社会与公共服务",
       "icon": "🏙️",
-      "description": "社会公平、公共服务、社区支持、养老、公共安全和社会稳定。",
+      "description": "社会公平、公共服务、社区、老龄化、弱势群体、公共安全和社会信任。",
       "coreVocab": [
         {
-          "id": "society-v001",
+          "id": "society-public-v001",
           "en": "social inequality",
-          "zh": "",
+          "zh": "社会不平等",
           "type": "core"
         },
         {
-          "id": "society-v002",
+          "id": "society-public-v002",
           "en": "public services",
-          "zh": "",
+          "zh": "公共服务",
           "type": "core"
         },
         {
-          "id": "society-v003",
+          "id": "society-public-v003",
           "en": "local communities",
-          "zh": "",
+          "zh": "当地社区",
           "type": "core"
         },
         {
-          "id": "society-v004",
+          "id": "society-public-v004",
           "en": "living standards",
-          "zh": "",
+          "zh": "生活水平",
           "type": "core"
         },
         {
-          "id": "society-v005",
+          "id": "society-public-v005",
           "en": "social stability",
-          "zh": "",
+          "zh": "社会稳定",
           "type": "core"
         },
         {
-          "id": "society-v006",
-          "en": "cultural diversity",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v007",
-          "en": "urban development",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v008",
-          "en": "population growth",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v009",
-          "en": "crime prevention",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v010",
-          "en": "public safety",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v011",
-          "en": "social responsibility",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v012",
-          "en": "community support",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v013",
+          "id": "society-public-v006",
           "en": "elderly care",
-          "zh": "",
+          "zh": "养老服务",
           "type": "core"
         },
         {
-          "id": "society-v014",
-          "en": "youth development",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v015",
-          "en": "social pressure",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v016",
-          "en": "vulnerable groups",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v017",
-          "en": "public funding",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v018",
-          "en": "social trust",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v019",
-          "en": "welfare system",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "society-v020",
-          "en": "affordable services",
-          "zh": "",
-          "type": "core"
-        }
-      ],
-      "commonClaims": [
-        "Strong public services are essential for social fairness.",
-        "Increase funding for education, healthcare and community support can help reduce social inequality and improve public safety.",
-        "One major reason is that public services can reduce social inequality.",
-        "Although expanding public services may increase taxes, better services can reduce long-term social problems and costs."
-      ],
-      "practiceSemantics": {
-        "field": "public services and social policy",
-        "topic": "public services",
-        "statement": "governments should invest more in public services",
-        "viewA": "public services should be funded mainly by the government",
-        "viewB": "private organisations can also help provide services",
-        "opinion": "strong public services are essential for social fairness",
-        "position": "governments should ensure that basic services are accessible to all citizens",
-        "reason": "public services can reduce social inequality",
-        "factor": "unequal access to healthcare, education and transport",
-        "benefit": "low-income families can receive essential support",
-        "effect": "improve living standards and social stability",
-        "opposing": "expanding public services may increase taxes",
-        "counter": "better services can reduce long-term social problems and costs",
-        "explanation": "disadvantaged groups often depend more heavily on public support",
-        "factorA": "income inequality",
-        "factorB": "uneven distribution of resources",
-        "example": "affordable healthcare can reduce the financial burden on poorer families",
-        "result": "people may have more equal opportunities",
-        "negative": "greater social division and public dissatisfaction",
-        "positive": "stronger communities and higher social trust",
-        "A": "private services",
-        "B": "basic public services",
-        "verb": "reach vulnerable groups more reliably",
-        "alternative": "leaving essential services entirely to the market",
-        "solution": "increase funding for education, healthcare and community support",
-        "goal": "reduce social inequality and improve public safety",
-        "area": "public healthcare, education and elderly care",
-        "group": "governments and local communities",
-        "action": "support vulnerable groups",
-        "summary": "public services are important for fairness, stability and quality of life"
-      }
-    },
-    {
-      "id": "family-children",
-      "name": "家庭与儿童",
-      "icon": "👨‍👩‍👧",
-      "description": "家庭教育、亲子关系、儿童发展、屏幕使用、纪律与独立性。",
-      "coreVocab": [
-        {
-          "id": "family-children-v001",
-          "en": "parental guidance",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v002",
-          "en": "family environment",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v003",
-          "en": "child development",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v004",
-          "en": "screen time",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v005",
-          "en": "self-discipline",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v006",
-          "en": "emotional security",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v007",
-          "en": "independence",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v008",
-          "en": "responsibility",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v009",
-          "en": "parent-child communication",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v010",
-          "en": "peer pressure",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v011",
-          "en": "childhood education",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v012",
-          "en": "behavioural problems",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v013",
-          "en": "digital habits",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v014",
-          "en": "family relationships",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v015",
-          "en": "role models",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v016",
-          "en": "discipline",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v017",
-          "en": "creativity",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v018",
-          "en": "social skills",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v019",
-          "en": "online safety",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "family-children-v020",
-          "en": "emotional support",
-          "zh": "",
-          "type": "core"
-        }
-      ],
-      "commonClaims": [
-        "Parents should combine guidance with reasonable freedom.",
-        "Set clear rules and communicate with children regularly can help help children develop independence and responsibility.",
-        "One major reason is that family environment has a major influence on children's behaviour and values.",
-        "Although strict rules may limit children's independence, reasonable rules can protect children while still allowing them to make choices."
-      ],
-      "practiceSemantics": {
-        "field": "family life and child development",
-        "topic": "parenting and children's development",
-        "statement": "parents should guide children's screen use rather than ban it completely",
-        "viewA": "children should be given more freedom",
-        "viewB": "parents should set clear rules and limits",
-        "opinion": "parents should combine guidance with reasonable freedom",
-        "position": "children need both independence and parental support",
-        "reason": "family environment has a major influence on children's behaviour and values",
-        "factor": "parental guidance",
-        "benefit": "children can develop self-discipline and emotional security",
-        "effect": "support children's long-term development",
-        "opposing": "strict rules may limit children's independence",
-        "counter": "reasonable rules can protect children while still allowing them to make choices",
-        "explanation": "young children often lack the ability to judge online risks",
-        "factorA": "excessive screen time",
-        "factorB": "lack of parental communication",
-        "example": "parents can set screen-time limits and discuss online content with their children",
-        "result": "children may develop healthier digital habits",
-        "negative": "poor self-control and weaker family relationships",
-        "positive": "greater independence and emotional well-being",
-        "A": "complete freedom",
-        "B": "reasonable parental guidance",
-        "verb": "help children make safer choices",
-        "alternative": "banning all digital devices",
-        "solution": "set clear rules and communicate with children regularly",
-        "goal": "help children develop independence and responsibility",
-        "area": "parenting education and child mental health",
-        "group": "parents and schools",
-        "action": "create a supportive environment for children",
-        "summary": "effective parenting should balance protection, communication and independence"
-      }
-    },
-    {
-      "id": "media-advertising",
-      "name": "媒体与广告",
-      "icon": "📺",
-      "description": "新闻媒体、社交媒体、广告、虚假信息、消费者行为和媒体素养。",
-      "coreVocab": [
-        {
-          "id": "media-advertising-v001",
-          "en": "mass media",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v002",
-          "en": "social media",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v003",
-          "en": "advertising",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v004",
-          "en": "consumer behaviour",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v005",
-          "en": "misinformation",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v006",
-          "en": "media literacy",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v007",
-          "en": "public opinion",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v008",
-          "en": "online influencers",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v009",
-          "en": "digital platforms",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v010",
-          "en": "freedom of speech",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v011",
-          "en": "news coverage",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v012",
-          "en": "commercial pressure",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v013",
-          "en": "targeted advertising",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v014",
-          "en": "brand awareness",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v015",
-          "en": "critical thinking",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v016",
-          "en": "fake news",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v017",
-          "en": "sponsorship",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v018",
-          "en": "privacy concerns",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v019",
-          "en": "content regulation",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "media-advertising-v020",
-          "en": "online communities",
-          "zh": "",
-          "type": "core"
-        }
-      ],
-      "commonClaims": [
-        "People should develop stronger media literacy.",
-        "Improve media literacy and regulate misleading advertising can help protect consumers and reduce misinformation.",
-        "One major reason is that media messages can strongly influence people's opinions and choices.",
-        "Although advertising provides useful information about products, many advertisements are designed to create artificial needs."
-      ],
-      "practiceSemantics": {
-        "field": "media and communication",
-        "topic": "social media and advertising",
-        "statement": "social media has changed the way people receive information",
-        "viewA": "advertising helps consumers make informed choices",
-        "viewB": "advertising can encourage unnecessary consumption",
-        "opinion": "people should develop stronger media literacy",
-        "position": "advertising should be regulated, especially when it targets children",
-        "reason": "media messages can strongly influence people's opinions and choices",
-        "factor": "media literacy",
-        "benefit": "people can access information quickly and communicate more easily",
-        "effect": "shape public opinion and consumer behaviour",
-        "opposing": "advertising provides useful information about products",
-        "counter": "many advertisements are designed to create artificial needs",
-        "explanation": "social media platforms spread information quickly, but not always accurately",
-        "factorA": "misleading information",
-        "factorB": "low media literacy",
-        "example": "some influencers promote products without clearly showing sponsorship",
-        "result": "consumers may make less rational decisions",
-        "negative": "misinformation and excessive consumption",
-        "positive": "better access to information and wider public participation",
-        "A": "traditional newspapers",
-        "B": "social media platforms",
-        "verb": "spread information more quickly",
-        "alternative": "allowing all advertising without restrictions",
-        "solution": "improve media literacy and regulate misleading advertising",
-        "goal": "protect consumers and reduce misinformation",
-        "area": "media education and advertising regulation",
-        "group": "consumers, schools and regulators",
-        "action": "evaluate information more critically",
-        "summary": "modern media should be used critically and responsibly"
-      }
-    },
-    {
-      "id": "culture-arts",
-      "name": "文化与艺术",
-      "icon": "🎨",
-      "description": "文化遗产、艺术教育、博物馆、传统文化、创意产业与文化多样性。",
-      "coreVocab": [
-        {
-          "id": "culture-arts-v001",
-          "en": "cultural heritage",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v002",
-          "en": "arts education",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v003",
-          "en": "museums",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v004",
-          "en": "historical sites",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v005",
-          "en": "traditional culture",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v006",
-          "en": "cultural diversity",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v007",
-          "en": "creative industries",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v008",
-          "en": "national identity",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v009",
-          "en": "local traditions",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v010",
-          "en": "public funding",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v011",
-          "en": "cultural exchange",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v012",
-          "en": "artistic expression",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v013",
-          "en": "preservation",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v014",
-          "en": "cultural awareness",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v015",
-          "en": "performing arts",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v016",
-          "en": "visual arts",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v017",
-          "en": "community identity",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v018",
-          "en": "cultural tourism",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v019",
-          "en": "digital exhibitions",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "culture-arts-v020",
-          "en": "historical memory",
-          "zh": "",
-          "type": "core"
-        }
-      ],
-      "commonClaims": [
-        "Cultural heritage should be protected because it connects people with history.",
-        "Support museums, cultural festivals and arts education can help protect cultural heritage and encourage creativity.",
-        "One major reason is that culture helps people understand their identity and history.",
-        "Although art projects may seem less urgent than healthcare or transport, culture also contributes to education, tourism and community life."
-      ],
-      "practiceSemantics": {
-        "field": "culture and the arts",
-        "topic": "cultural heritage and arts education",
-        "statement": "governments should spend money on preserving cultural heritage",
-        "viewA": "public money should be spent on practical services",
-        "viewB": "culture and the arts are also important for society",
-        "opinion": "cultural heritage should be protected because it connects people with history",
-        "position": "arts education should remain part of the school curriculum",
-        "reason": "culture helps people understand their identity and history",
-        "factor": "cultural diversity",
-        "benefit": "it can strengthen social identity and creativity",
-        "effect": "promote cultural understanding and creative industries",
-        "opposing": "art projects may seem less urgent than healthcare or transport",
-        "counter": "culture also contributes to education, tourism and community life",
-        "explanation": "museums and historical sites allow people to learn about the past directly",
-        "factorA": "globalisation",
-        "factorB": "declining interest in traditional culture",
-        "example": "museums can use digital exhibitions to attract younger visitors",
-        "result": "people may develop a stronger sense of cultural identity",
-        "negative": "loss of cultural identity and historical memory",
-        "positive": "greater creativity and cultural understanding",
-        "A": "purely practical subjects",
-        "B": "arts education",
-        "verb": "develop creativity and emotional expression",
-        "alternative": "focusing only on economic development",
-        "solution": "support museums, cultural festivals and arts education",
-        "goal": "protect cultural heritage and encourage creativity",
-        "area": "museums, libraries and arts education",
-        "group": "governments, schools and local communities",
-        "action": "preserve traditions while encouraging innovation",
-        "summary": "culture and the arts are valuable for identity, education and creativity"
-      }
-    },
-    {
-      "id": "crime-law",
-      "name": "犯罪与法律",
-      "icon": "⚖️",
-      "description": "犯罪预防、惩罚与教育、青少年犯罪、监狱、社会安全与法律意识。",
-      "coreVocab": [
-        {
-          "id": "crime-law-v001",
-          "en": "crime prevention",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v002",
+          "id": "society-public-v007",
           "en": "public safety",
-          "zh": "",
+          "zh": "公共安全",
           "type": "core"
         },
         {
-          "id": "crime-law-v003",
-          "en": "law enforcement",
-          "zh": "",
+          "id": "society-public-v008",
+          "en": "community support",
+          "zh": "社区支持",
           "type": "core"
         },
         {
-          "id": "crime-law-v004",
-          "en": "strict punishment",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v005",
-          "en": "rehabilitation",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v006",
-          "en": "reoffending",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v007",
-          "en": "juvenile crime",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v008",
-          "en": "social causes of crime",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v009",
-          "en": "poverty",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v010",
-          "en": "lack of education",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v011",
-          "en": "community programmes",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v012",
-          "en": "legal awareness",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v013",
-          "en": "victims of crime",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v014",
-          "en": "prison system",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v015",
-          "en": "deterrence",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v016",
-          "en": "social support",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v017",
-          "en": "youth services",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v018",
-          "en": "restorative justice",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v019",
-          "en": "job training",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "crime-law-v020",
-          "en": "public trust",
-          "zh": "",
-          "type": "core"
-        }
-      ],
-      "commonClaims": [
-        "Crime prevention should combine punishment with education and social support.",
-        "Provide education, job training and community support can help prevent crime and reduce reoffending.",
-        "One major reason is that many crimes are linked to poverty, poor education and lack of opportunities.",
-        "Although strict punishment can deter potential criminals, punishment alone does not address the social causes of crime."
-      ],
-      "practiceSemantics": {
-        "field": "crime prevention and justice",
-        "topic": "crime and punishment",
-        "statement": "education is more effective than punishment in preventing crime",
-        "viewA": "criminals should receive stricter punishment",
-        "viewB": "rehabilitation can reduce future crime",
-        "opinion": "crime prevention should combine punishment with education and social support",
-        "position": "rehabilitation should be an important part of the justice system",
-        "reason": "many crimes are linked to poverty, poor education and lack of opportunities",
-        "factor": "social inequality",
-        "benefit": "rehabilitation can help offenders return to society",
-        "effect": "reduce reoffending and improve public safety",
-        "opposing": "strict punishment can deter potential criminals",
-        "counter": "punishment alone does not address the social causes of crime",
-        "explanation": "young offenders often lack guidance, education and stable family support",
-        "factorA": "poverty",
-        "factorB": "lack of education",
-        "example": "community programmes can help young people develop job skills and avoid crime",
-        "result": "crime rates may fall over time",
-        "negative": "higher reoffending rates and pressure on prisons",
-        "positive": "safer communities and lower social costs",
-        "A": "long prison sentences",
-        "B": "rehabilitation programmes",
-        "verb": "address the causes of crime more directly",
-        "alternative": "relying only on harsher punishment",
-        "solution": "provide education, job training and community support",
-        "goal": "prevent crime and reduce reoffending",
-        "area": "youth services and rehabilitation programmes",
-        "group": "governments and local communities",
-        "action": "support young people before they turn to crime",
-        "summary": "a fair justice system should protect society while helping offenders change"
-      }
-    },
-    {
-      "id": "urban-housing-transport",
-      "name": "城市、住房与交通",
-      "icon": "🚇",
-      "description": "城市化、住房负担、公共交通、交通拥堵、城市规划与生活质量。",
-      "coreVocab": [
-        {
-          "id": "urban-housing-transport-v001",
-          "en": "urbanisation",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v002",
-          "en": "urban planning",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v003",
-          "en": "affordable housing",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v004",
-          "en": "housing prices",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v005",
-          "en": "public transport",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v006",
-          "en": "traffic congestion",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v007",
-          "en": "commuting time",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v008",
-          "en": "city centres",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v009",
-          "en": "suburban areas",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v010",
-          "en": "public space",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v011",
-          "en": "infrastructure",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v012",
-          "en": "population density",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v013",
-          "en": "liveability",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v014",
-          "en": "air pollution",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v015",
-          "en": "metro systems",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v016",
-          "en": "bike lanes",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v017",
-          "en": "road safety",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v018",
-          "en": "mixed-use development",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v019",
-          "en": "green spaces",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "urban-housing-transport-v020",
-          "en": "urban sprawl",
-          "zh": "",
-          "type": "core"
-        }
-      ],
-      "commonClaims": [
-        "Urban planning should focus on liveability rather than only expansion.",
-        "Develop affordable housing and reliable public transport can help make cities more affordable and liveable.",
-        "One major reason is that poor planning can reduce quality of life and increase social inequality.",
-        "Although building more roads may seem like a quick solution, more roads often attract more cars and do not solve congestion in the long term."
-      ],
-      "practiceSemantics": {
-        "field": "urban development",
-        "topic": "urban housing and transport",
-        "statement": "cities should invest more in public transport and affordable housing",
-        "viewA": "cities should build more roads for private cars",
-        "viewB": "cities should improve public transport and urban planning",
-        "opinion": "urban planning should focus on liveability rather than only expansion",
-        "position": "public transport and affordable housing should be priorities in large cities",
-        "reason": "poor planning can reduce quality of life and increase social inequality",
-        "factor": "rapid urbanisation",
-        "benefit": "better planning can make cities more convenient and inclusive",
-        "effect": "reduce congestion and improve living standards",
-        "opposing": "building more roads may seem like a quick solution",
-        "counter": "more roads often attract more cars and do not solve congestion in the long term",
-        "explanation": "population growth increases demand for housing and transport",
-        "factorA": "rising housing prices",
-        "factorB": "limited public transport capacity",
-        "example": "metro systems can carry large numbers of commuters during rush hours",
-        "result": "commuting time and air pollution can be reduced",
-        "negative": "higher living costs and longer commuting times",
-        "positive": "more liveable and efficient cities",
-        "A": "private cars",
-        "B": "public transport",
-        "verb": "move large numbers of people more efficiently",
-        "alternative": "building more parking spaces",
-        "solution": "develop affordable housing and reliable public transport",
-        "goal": "make cities more affordable and liveable",
-        "area": "urban planning, housing and transport systems",
-        "group": "city governments and residents",
-        "action": "support compact and sustainable urban development",
-        "summary": "good urban planning should balance transport, housing and public space"
-      }
-    },
-    {
-      "id": "globalization",
-      "name": "全球化与国际交流",
-      "icon": "🌍",
-      "description": "全球化、国际贸易、文化交流、移民、跨国合作与本土文化保护。",
-      "coreVocab": [
-        {
-          "id": "globalization-v001",
-          "en": "globalisation",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v002",
-          "en": "international trade",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v003",
-          "en": "cultural exchange",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v004",
-          "en": "migration",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v005",
-          "en": "international cooperation",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v006",
-          "en": "local culture",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v007",
-          "en": "economic opportunities",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v008",
-          "en": "global competition",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v009",
-          "en": "multinational companies",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v010",
-          "en": "cultural identity",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v011",
-          "en": "fair trade",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v012",
-          "en": "global challenges",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v013",
-          "en": "cross-cultural communication",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v014",
-          "en": "foreign investment",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v015",
-          "en": "international education",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v016",
-          "en": "language learning",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v017",
-          "en": "global markets",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v018",
-          "en": "supply chains",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v019",
-          "en": "local communities",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "globalization-v020",
-          "en": "cultural adaptation",
-          "zh": "",
-          "type": "core"
-        }
-      ],
-      "commonClaims": [
-        "Globalisation should be managed in a way that protects local communities.",
-        "Promote fair trade and protect local cultures can help balance global cooperation with local interests.",
-        "One major reason is that many modern challenges cannot be solved by one country alone.",
-        "Although globalisation may make local businesses less competitive, governments can support local industries while remaining open to trade."
-      ],
-      "practiceSemantics": {
-        "field": "globalisation and international cooperation",
-        "topic": "globalisation",
-        "statement": "globalisation brings more benefits than problems",
-        "viewA": "globalisation creates economic opportunities and cultural exchange",
-        "viewB": "it may weaken local cultures and increase inequality",
-        "opinion": "globalisation should be managed in a way that protects local communities",
-        "position": "international cooperation is essential for solving global problems",
-        "reason": "many modern challenges cannot be solved by one country alone",
-        "factor": "international cooperation",
-        "benefit": "countries can share knowledge, technology and markets",
-        "effect": "increase cultural understanding and economic opportunities",
-        "opposing": "globalisation may make local businesses less competitive",
-        "counter": "governments can support local industries while remaining open to trade",
-        "explanation": "global trade connects producers, consumers and ideas across borders",
-        "factorA": "unequal economic power",
-        "factorB": "rapid cultural change",
-        "example": "international research cooperation can help develop vaccines and clean energy technologies",
-        "result": "countries can respond more effectively to global challenges",
-        "negative": "loss of local identity and wider inequality",
-        "positive": "more innovation and cultural exchange",
-        "A": "isolated national policies",
-        "B": "international cooperation",
-        "verb": "solve global problems more effectively",
-        "alternative": "closing markets completely",
-        "solution": "promote fair trade and protect local cultures",
-        "goal": "balance global cooperation with local interests",
-        "area": "education, trade and cultural exchange",
-        "group": "governments and international organisations",
-        "action": "cooperate on shared challenges",
-        "summary": "globalisation is valuable when it is fair, inclusive and culturally respectful"
-      }
-    },
-    {
-      "id": "tourism-travel",
-      "name": "旅游与旅行",
-      "icon": "✈️",
-      "description": "旅游业、文化交流、生态旅游、过度旅游、当地社区与经济影响。",
-      "coreVocab": [
-        {
-          "id": "tourism-travel-v001",
-          "en": "tourism industry",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v002",
-          "en": "sustainable tourism",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v003",
-          "en": "eco-tourism",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v004",
-          "en": "local communities",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v005",
-          "en": "cultural exchange",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v006",
-          "en": "tourist attractions",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v007",
-          "en": "historical sites",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v008",
-          "en": "overcrowding",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v009",
-          "en": "environmental damage",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v010",
-          "en": "local economy",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v011",
-          "en": "visitor management",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v012",
-          "en": "travel experience",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v013",
-          "en": "public facilities",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v014",
-          "en": "seasonal jobs",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v015",
-          "en": "cultural respect",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v016",
-          "en": "mass tourism",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v017",
-          "en": "natural landscapes",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v018",
-          "en": "heritage sites",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v019",
-          "en": "local businesses",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "tourism-travel-v020",
-          "en": "responsible travel",
-          "zh": "",
-          "type": "core"
-        }
-      ],
-      "commonClaims": [
-        "Tourism should be developed in a sustainable way.",
-        "Limit visitor numbers and support eco-friendly travel can help protect local culture and natural environments.",
-        "One major reason is that tourism can create jobs and support local businesses.",
-        "Although tourism may increase pollution and pressure on local resources, these problems can be reduced through better planning and visitor management."
-      ],
-      "practiceSemantics": {
-        "field": "tourism and travel",
-        "topic": "tourism",
-        "statement": "tourism brings economic benefits but may also damage local communities",
-        "viewA": "tourism is an important source of income",
-        "viewB": "too many tourists can harm local culture and the environment",
-        "opinion": "tourism should be developed in a sustainable way",
-        "position": "sustainable tourism is better than uncontrolled mass tourism",
-        "reason": "tourism can create jobs and support local businesses",
-        "factor": "the impact on local communities",
-        "benefit": "it allows people to experience different cultures",
-        "effect": "promote cultural exchange and economic growth",
-        "opposing": "tourism may increase pollution and pressure on local resources",
-        "counter": "these problems can be reduced through better planning and visitor management",
-        "explanation": "popular destinations often have limited infrastructure and natural resources",
-        "factorA": "mass tourism",
-        "factorB": "weak environmental management",
-        "example": "some cities limit visitor numbers to protect historical sites",
-        "result": "local culture and natural environments can be better protected",
-        "negative": "overcrowding, pollution and rising living costs",
-        "positive": "more jobs and stronger cultural exchange",
-        "A": "mass tourism",
-        "B": "sustainable tourism",
-        "verb": "protect local communities more effectively",
-        "alternative": "attracting as many tourists as possible",
-        "solution": "limit visitor numbers and support eco-friendly travel",
-        "goal": "protect local culture and natural environments",
-        "area": "sustainable tourism and local infrastructure",
-        "group": "tourists, local businesses and governments",
-        "action": "respect local customs and reduce environmental impact",
-        "summary": "tourism should benefit visitors while protecting local communities"
-      }
-    },
-    {
-      "id": "government-policy",
-      "name": "政府与公共政策",
-      "icon": "🏛️",
-      "description": "政府责任、公共支出、税收、监管、个人自由与公共利益。",
-      "coreVocab": [
-        {
-          "id": "government-policy-v001",
-          "en": "government responsibility",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v002",
-          "en": "public policy",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v003",
-          "en": "public spending",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v004",
-          "en": "taxation",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v005",
-          "en": "regulation",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v006",
-          "en": "personal freedom",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v007",
-          "en": "public interest",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v008",
-          "en": "social welfare",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v009",
-          "en": "public funding",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v010",
-          "en": "policy implementation",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v011",
-          "en": "transparency",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v012",
-          "en": "efficiency",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v013",
+          "id": "society-public-v009",
           "en": "vulnerable groups",
-          "zh": "",
+          "zh": "弱势群体",
           "type": "core"
         },
         {
-          "id": "government-policy-v014",
-          "en": "individual responsibility",
-          "zh": "",
+          "id": "society-public-v010",
+          "en": "affordable services",
+          "zh": "可负担服务",
           "type": "core"
         },
         {
-          "id": "government-policy-v015",
-          "en": "market forces",
-          "zh": "",
+          "id": "society-public-v011",
+          "en": "social trust",
+          "zh": "社会信任",
           "type": "core"
         },
         {
-          "id": "government-policy-v016",
+          "id": "society-public-v012",
+          "en": "public funding",
+          "zh": "公共资金",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v013",
+          "en": "population ageing",
+          "zh": "人口老龄化",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v014",
+          "en": "voluntary work",
+          "zh": "志愿工作",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v015",
+          "en": "accessibility",
+          "zh": "无障碍和可及性",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v016",
+          "en": "welfare system",
+          "zh": "福利体系",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v017",
+          "en": "youth services",
+          "zh": "青年服务",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v018",
+          "en": "social isolation",
+          "zh": "社会孤立",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v019",
+          "en": "equal opportunities",
+          "zh": "平等机会",
+          "type": "core"
+        },
+        {
+          "id": "society-public-v020",
+          "en": "civic participation",
+          "zh": "公民参与",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "Strong basic public services are necessary for equal opportunities.",
+        "One major reason is that low-income families depend more heavily on affordable healthcare, education and transport.",
+        "Admittedly, expanding public services may require higher taxes.",
+        "One practical solution is to provide mobile services and improve community transport."
+      ]
+    },
+    {
+      "id": "government-law",
+      "name": "政府、法律与犯罪",
+      "icon": "⚖️",
+      "description": "政府责任、公共政策、法律意识、犯罪预防、惩罚、康复和公共安全。",
+      "coreVocab": [
+        {
+          "id": "government-law-v001",
+          "en": "government responsibility",
+          "zh": "政府责任",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v002",
+          "en": "public policy",
+          "zh": "公共政策",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v003",
+          "en": "law enforcement",
+          "zh": "执法",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v004",
+          "en": "crime prevention",
+          "zh": "犯罪预防",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v005",
+          "en": "public safety",
+          "zh": "公共安全",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v006",
+          "en": "rehabilitation",
+          "zh": "康复改造",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v007",
+          "en": "strict punishment",
+          "zh": "严厉惩罚",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v008",
+          "en": "reoffending",
+          "zh": "再次犯罪",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v009",
+          "en": "legal awareness",
+          "zh": "法律意识",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v010",
+          "en": "public spending",
+          "zh": "公共支出",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v011",
+          "en": "regulation",
+          "zh": "监管",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v012",
+          "en": "personal freedom",
+          "zh": "个人自由",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v013",
+          "en": "public interest",
+          "zh": "公共利益",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v014",
+          "en": "transparency",
+          "zh": "透明度",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v015",
+          "en": "youth services",
+          "zh": "青年服务",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v016",
+          "en": "social causes of crime",
+          "zh": "犯罪的社会原因",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v017",
+          "en": "community programmes",
+          "zh": "社区项目",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v018",
+          "en": "victim support",
+          "zh": "受害者支持",
+          "type": "core"
+        },
+        {
+          "id": "government-law-v019",
           "en": "public trust",
-          "zh": "",
+          "zh": "公众信任",
           "type": "core"
         },
         {
-          "id": "government-policy-v017",
-          "en": "legal framework",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v018",
-          "en": "social progress",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v019",
-          "en": "public resources",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "government-policy-v020",
-          "en": "government intervention",
-          "zh": "",
+          "id": "government-law-v020",
+          "en": "fair trial",
+          "zh": "公平审判",
           "type": "core"
         }
       ],
       "commonClaims": [
-        "Government action and individual responsibility should work together.",
-        "Design transparent policies and use public money efficiently can help protect public interests and support vulnerable groups.",
-        "One major reason is that many social problems are too large for individuals to solve alone.",
-        "Although too much government intervention may limit personal freedom, reasonable regulation can protect public interests without removing individual choice."
-      ],
-      "practiceSemantics": {
-        "field": "public policy",
-        "topic": "government responsibility",
-        "statement": "governments should play an active role in solving social problems",
-        "viewA": "governments should provide strong public support",
-        "viewB": "individuals should take more responsibility for their own lives",
-        "opinion": "government action and individual responsibility should work together",
-        "position": "public policy should balance freedom, fairness and efficiency",
-        "reason": "many social problems are too large for individuals to solve alone",
-        "factor": "public funding and regulation",
-        "benefit": "well-designed policies can protect vulnerable groups",
-        "effect": "improve fairness and social stability",
-        "opposing": "too much government intervention may limit personal freedom",
-        "counter": "reasonable regulation can protect public interests without removing individual choice",
-        "explanation": "public resources need to be distributed according to social needs",
-        "factorA": "limited public budgets",
-        "factorB": "growing demand for services",
-        "example": "governments can fund healthcare and education to support low-income families",
-        "result": "basic opportunities can become more equal",
-        "negative": "inefficient spending and public dissatisfaction",
-        "positive": "fairer access to essential services",
-        "A": "individual action alone",
-        "B": "coordinated public policy",
-        "verb": "solve large-scale problems more effectively",
-        "alternative": "leaving all problems to the market",
-        "solution": "design transparent policies and use public money efficiently",
-        "goal": "protect public interests and support vulnerable groups",
-        "area": "healthcare, education and social welfare",
-        "group": "governments and citizens",
-        "action": "share responsibility for social progress",
-        "summary": "good public policy should combine government responsibility with individual effort"
-      }
+        "A fair justice system should protect the public while helping suitable offenders change.",
+        "One major reason is that punishment alone does not address the causes of repeated offending.",
+        "Admittedly, rehabilitation may appear too lenient for serious offences.",
+        "One practical solution is to improve transparency, community contact and independent oversight."
+      ]
     },
     {
-      "id": "food-consumption",
-      "name": "食物、消费与生活方式",
-      "icon": "🛒",
-      "description": "消费主义、食品健康、快餐、浪费、购物习惯、可持续消费。",
-      "coreVocab": [
-        {
-          "id": "food-consumption-v001",
-          "en": "consumer behaviour",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v002",
-          "en": "responsible consumption",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v003",
-          "en": "fast food",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v004",
-          "en": "food waste",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v005",
-          "en": "healthy eating",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v006",
-          "en": "balanced diet",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v007",
-          "en": "sustainable choices",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v008",
-          "en": "packaging waste",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v009",
-          "en": "advertising pressure",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v010",
-          "en": "convenience culture",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v011",
-          "en": "shopping habits",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v012",
-          "en": "household spending",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v013",
-          "en": "processed food",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v014",
-          "en": "nutrition education",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v015",
-          "en": "obesity",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v016",
-          "en": "environmental footprint",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v017",
-          "en": "recycling",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v018",
-          "en": "overconsumption",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v019",
-          "en": "local products",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "food-consumption-v020",
-          "en": "ethical consumption",
-          "zh": "",
-          "type": "core"
-        }
-      ],
-      "commonClaims": [
-        "Responsible consumption is important for both health and the environment.",
-        "Promote food education and reduce unnecessary packaging can help reduce waste and encourage healthier choices.",
-        "One major reason is that modern consumption habits can damage both personal health and the environment.",
-        "Although people should be free to buy whatever they want, public education can guide choices without completely restricting freedom."
-      ],
-      "practiceSemantics": {
-        "field": "consumer behaviour and lifestyle",
-        "topic": "consumption and food choices",
-        "statement": "people should be encouraged to consume more responsibly",
-        "viewA": "consumer choice should be left entirely to individuals",
-        "viewB": "governments and companies should encourage healthier and more sustainable choices",
-        "opinion": "responsible consumption is important for both health and the environment",
-        "position": "people should reduce waste and make more sustainable choices",
-        "reason": "modern consumption habits can damage both personal health and the environment",
-        "factor": "advertising and convenience culture",
-        "benefit": "responsible consumption can reduce waste and improve health",
-        "effect": "support sustainable development and healthier lifestyles",
-        "opposing": "people should be free to buy whatever they want",
-        "counter": "public education can guide choices without completely restricting freedom",
-        "explanation": "fast food and excessive consumption are often encouraged by convenience and advertising",
-        "factorA": "busy lifestyles",
-        "factorB": "aggressive marketing",
-        "example": "families can reduce food waste by planning meals and buying only what they need",
-        "result": "household spending and environmental pressure can be reduced",
-        "negative": "food waste, obesity and environmental damage",
-        "positive": "healthier diets and less waste",
-        "A": "fast food",
-        "B": "home-cooked meals",
-        "verb": "support healthier eating habits",
-        "alternative": "ignoring the environmental cost of consumption",
-        "solution": "promote food education and reduce unnecessary packaging",
-        "goal": "reduce waste and encourage healthier choices",
-        "area": "food education and sustainable packaging",
-        "group": "consumers, schools and businesses",
-        "action": "make responsible choices in daily life",
-        "summary": "small changes in consumption habits can improve health and sustainability"
-      }
-    },
-    {
-      "id": "science-space",
-      "name": "科学与太空探索",
+      "id": "science-data-process",
+      "name": "科学、数据与过程说明",
       "icon": "🔬",
-      "description": "科学研究、太空探索、公共投资、技术创新、基础研究与社会回报。",
+      "description": "科学研究、数据变化、图表、实验步骤、系统机制和学术说明。",
       "coreVocab": [
         {
-          "id": "science-space-v001",
+          "id": "science-data-process-v001",
           "en": "scientific research",
-          "zh": "",
+          "zh": "科学研究",
           "type": "core"
         },
         {
-          "id": "science-space-v002",
-          "en": "space exploration",
-          "zh": "",
+          "id": "science-data-process-v002",
+          "en": "data analysis",
+          "zh": "数据分析",
           "type": "core"
         },
         {
-          "id": "science-space-v003",
-          "en": "public investment",
-          "zh": "",
+          "id": "science-data-process-v003",
+          "en": "research method",
+          "zh": "研究方法",
           "type": "core"
         },
         {
-          "id": "science-space-v004",
-          "en": "basic research",
-          "zh": "",
+          "id": "science-data-process-v004",
+          "en": "experiment",
+          "zh": "实验",
           "type": "core"
         },
         {
-          "id": "science-space-v005",
-          "en": "applied technology",
-          "zh": "",
+          "id": "science-data-process-v005",
+          "en": "evidence",
+          "zh": "证据",
           "type": "core"
         },
         {
-          "id": "science-space-v006",
-          "en": "innovation",
-          "zh": "",
+          "id": "science-data-process-v006",
+          "en": "sample size",
+          "zh": "样本量",
           "type": "core"
         },
         {
-          "id": "science-space-v007",
-          "en": "long-term benefits",
-          "zh": "",
+          "id": "science-data-process-v007",
+          "en": "variable",
+          "zh": "变量",
           "type": "core"
         },
         {
-          "id": "science-space-v008",
-          "en": "medical breakthroughs",
-          "zh": "",
+          "id": "science-data-process-v008",
+          "en": "measurement",
+          "zh": "测量",
           "type": "core"
         },
         {
-          "id": "science-space-v009",
-          "en": "satellite technology",
-          "zh": "",
+          "id": "science-data-process-v009",
+          "en": "trend",
+          "zh": "趋势",
           "type": "core"
         },
         {
-          "id": "science-space-v010",
-          "en": "environmental research",
-          "zh": "",
+          "id": "science-data-process-v010",
+          "en": "proportion",
+          "zh": "比例",
           "type": "core"
         },
         {
-          "id": "science-space-v011",
-          "en": "research funding",
-          "zh": "",
+          "id": "science-data-process-v011",
+          "en": "steady increase",
+          "zh": "稳步增长",
           "type": "core"
         },
         {
-          "id": "science-space-v012",
-          "en": "scientific knowledge",
-          "zh": "",
+          "id": "science-data-process-v012",
+          "en": "sharp decline",
+          "zh": "急剧下降",
           "type": "core"
         },
         {
-          "id": "science-space-v013",
-          "en": "technological progress",
-          "zh": "",
+          "id": "science-data-process-v013",
+          "en": "research findings",
+          "zh": "研究发现",
           "type": "core"
         },
         {
-          "id": "science-space-v014",
-          "en": "risk and uncertainty",
-          "zh": "",
+          "id": "science-data-process-v014",
+          "en": "reliable results",
+          "zh": "可靠结果",
           "type": "core"
         },
         {
-          "id": "science-space-v015",
-          "en": "public money",
-          "zh": "",
+          "id": "science-data-process-v015",
+          "en": "control group",
+          "zh": "对照组",
           "type": "core"
         },
         {
-          "id": "science-space-v016",
-          "en": "research institutions",
-          "zh": "",
+          "id": "science-data-process-v016",
+          "en": "observation",
+          "zh": "观察",
           "type": "core"
         },
         {
-          "id": "science-space-v017",
-          "en": "international cooperation",
-          "zh": "",
+          "id": "science-data-process-v017",
+          "en": "hypothesis",
+          "zh": "假设",
           "type": "core"
         },
         {
-          "id": "science-space-v018",
-          "en": "clean energy technology",
-          "zh": "",
-          "type": "core"
-        },
-        {
-          "id": "science-space-v019",
+          "id": "science-data-process-v018",
           "en": "data collection",
-          "zh": "",
+          "zh": "数据收集",
           "type": "core"
         },
         {
-          "id": "science-space-v020",
-          "en": "human curiosity",
-          "zh": "",
+          "id": "science-data-process-v019",
+          "en": "research limitations",
+          "zh": "研究局限",
+          "type": "core"
+        },
+        {
+          "id": "science-data-process-v020",
+          "en": "peer review",
+          "zh": "同行评审",
           "type": "core"
         }
       ],
       "commonClaims": [
-        "Basic scientific research deserves public support.",
-        "Balance investment in essential services and long-term research can help support innovation while using public money responsibly.",
-        "One major reason is that scientific discoveries can lead to medical, technological and environmental progress.",
-        "Although scientific projects may not produce immediate results, many important discoveries only become useful after years of research."
+        "Scientific research should be judged by sound methods as well as immediate results.",
+        "One major reason is that basic discoveries often support later medical and technological advances.",
+        "Admittedly, research projects can be expensive and uncertain.",
+        "One practical solution is to report methods, sample sizes and limitations in clear language."
+      ]
+    },
+    {
+      "id": "daily-services",
+      "name": "日常生活与公共事务沟通",
+      "icon": "🛎️",
+      "description": "购物、餐饮、住宿、预约、客服、银行、邮寄、问路、投诉和协商。",
+      "coreVocab": [
+        {
+          "id": "daily-services-v001",
+          "en": "appointment",
+          "zh": "预约",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v002",
+          "en": "reservation",
+          "zh": "预订",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v003",
+          "en": "customer service",
+          "zh": "客户服务",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v004",
+          "en": "refund",
+          "zh": "退款",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v005",
+          "en": "replacement",
+          "zh": "更换",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v006",
+          "en": "receipt",
+          "zh": "收据",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v007",
+          "en": "delivery",
+          "zh": "配送",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v008",
+          "en": "booking confirmation",
+          "zh": "预订确认",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v009",
+          "en": "service charge",
+          "zh": "服务费",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v010",
+          "en": "opening hours",
+          "zh": "营业时间",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v011",
+          "en": "public counter",
+          "zh": "公共服务窗口",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v012",
+          "en": "application form",
+          "zh": "申请表",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v013",
+          "en": "identification",
+          "zh": "身份证明",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v014",
+          "en": "directions",
+          "zh": "路线指引",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v015",
+          "en": "cancellation policy",
+          "zh": "取消政策",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v016",
+          "en": "repair request",
+          "zh": "维修请求",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v017",
+          "en": "payment method",
+          "zh": "付款方式",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v018",
+          "en": "waiting time",
+          "zh": "等待时间",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v019",
+          "en": "special requirement",
+          "zh": "特殊要求",
+          "type": "core"
+        },
+        {
+          "id": "daily-services-v020",
+          "en": "complaint",
+          "zh": "投诉",
+          "type": "core"
+        }
       ],
-      "practiceSemantics": {
-        "field": "scientific research",
-        "topic": "science and space exploration",
-        "statement": "governments should continue to invest in scientific research",
-        "viewA": "space exploration is a waste of public money",
-        "viewB": "scientific research can bring long-term benefits",
-        "opinion": "basic scientific research deserves public support",
-        "position": "space exploration is valuable if it does not reduce funding for essential services",
-        "reason": "scientific discoveries can lead to medical, technological and environmental progress",
-        "factor": "long-term innovation",
-        "benefit": "it can expand human knowledge and create useful technologies",
-        "effect": "encourage innovation and solve practical problems",
-        "opposing": "scientific projects may not produce immediate results",
-        "counter": "many important discoveries only become useful after years of research",
-        "explanation": "basic research often creates knowledge that later supports applied technology",
-        "factorA": "high research costs",
-        "factorB": "uncertain short-term returns",
-        "example": "satellite technology is now used in weather forecasting and global communication",
-        "result": "society may benefit from new technologies and better knowledge",
-        "negative": "wasted funding if projects are poorly managed",
-        "positive": "technological innovation and scientific progress",
-        "A": "short-term commercial projects",
-        "B": "basic scientific research",
-        "verb": "create deeper long-term knowledge",
-        "alternative": "funding only projects with immediate profits",
-        "solution": "balance investment in essential services and long-term research",
-        "goal": "support innovation while using public money responsibly",
-        "area": "medical research, clean energy and space technology",
-        "group": "governments, universities and research institutions",
-        "action": "cooperate on scientific challenges",
-        "summary": "science investment should be judged by both practical value and long-term knowledge"
-      }
+      "commonClaims": [
+        "Essential services should offer both digital and human support.",
+        "One major reason is that online systems reduce travel and waiting time.",
+        "Admittedly, keeping several service channels can be expensive.",
+        "One practical solution is to use one updated information source across all service channels."
+      ]
+    },
+    {
+      "id": "personal-growth",
+      "name": "个人经历、成长与未来计划",
+      "icon": "🌟",
+      "description": "个人背景、兴趣、挑战、成功失败、情绪、目标、反思和未来规划。",
+      "coreVocab": [
+        {
+          "id": "personal-growth-v001",
+          "en": "personal goal",
+          "zh": "个人目标",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v002",
+          "en": "learning experience",
+          "zh": "学习经历",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v003",
+          "en": "self-confidence",
+          "zh": "自信",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v004",
+          "en": "time management",
+          "zh": "时间管理",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v005",
+          "en": "personal strengths",
+          "zh": "个人优势",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v006",
+          "en": "weakness",
+          "zh": "不足",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v007",
+          "en": "motivation",
+          "zh": "动力",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v008",
+          "en": "long-term plan",
+          "zh": "长期计划",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v009",
+          "en": "short-term priority",
+          "zh": "短期优先事项",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v010",
+          "en": "challenge",
+          "zh": "挑战",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v011",
+          "en": "achievement",
+          "zh": "成就",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v012",
+          "en": "failure",
+          "zh": "失败",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v013",
+          "en": "reflection",
+          "zh": "反思",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v014",
+          "en": "decision-making",
+          "zh": "决策",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v015",
+          "en": "daily habit",
+          "zh": "日常习惯",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v016",
+          "en": "emotional response",
+          "zh": "情绪反应",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v017",
+          "en": "future expectation",
+          "zh": "未来期待",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v018",
+          "en": "personal value",
+          "zh": "个人价值",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v019",
+          "en": "adaptability",
+          "zh": "适应能力",
+          "type": "core"
+        },
+        {
+          "id": "personal-growth-v020",
+          "en": "independence",
+          "zh": "独立性",
+          "type": "core"
+        }
+      ],
+      "commonClaims": [
+        "Ability matters, but regular practice usually determines how far a person develops.",
+        "One major reason is that practice turns knowledge into faster and more reliable performance.",
+        "Admittedly, some people begin with clear natural advantages.",
+        "One practical solution is to divide the goal into specific weekly tasks and review points."
+      ]
     }
   ]
 }
